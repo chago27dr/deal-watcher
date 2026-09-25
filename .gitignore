@@ -1,0 +1,13 @@
+# 秘密情報(Webhook URLなど)をうっかりコミットしないため
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# notified_history.json は GitHub Actions が自動でコミットするので、無視しない
+
+# Claude Code の作業用フォルダ
+.claude/

@@ -1,0 +1,53 @@
+name: Deal Checker
+
+on:
+  schedule:
+    # 30分おき(毎時7分と37分)。毎時0分は GitHub が混みやすく実行が遅れる/落ちることがあるため、少しずらしている。
+    # 最短は5分間隔まで指定できる。プライベートリポジトリは無料枠が月2,000分なので、超えそうなら "7 * * * *"(1時間おき)にする。
+    - cron: "7,37 * * * *"
+  workflow_dispatch: # 「Actions」タブから手動でも実行できる
+
+# 履歴ファイル(notified_history.json)をリポジトリへ書き戻すために必要
+permissions:
+  contents: write
+
+# 前回の実行がまだ終わっていないときは、終わるまで待つ(履歴の書き戻しが衝突しないように)
+concurrency:
+  group: deal-checker
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 依存パッケージをインストール
+        run: pip install -r requirements.txt
+
+      - name: 抽選・予約情報をチェックしてDiscordへ通知
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python main.py
+
+      # 通知済みの記録を残さないと、次回また同じ情報を通知してしまう。
+      # main.py が失敗した回でも、途中まで送れた分は記録したいので !cancelled() にしている。
+      - name: 通知済み履歴をコミット
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -z "$(git status --porcelain -- notified_history.json)" ]; then
+            echo "履歴に変更はありません"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add notified_history.json
+          git commit -m "chore: 通知済み履歴を更新 [skip ci]"
+          git pull --rebase
+          git push
