@@ -76,6 +76,8 @@ RELEASE_KEYWORDS = LOTTERY_KEYWORDS + ("発売", "販売")
 # 「抽選で当たる」系の懸賞・プレゼント企画は、商品の抽選販売ではないので除外する(exclude= で指定する)
 PRIZE_KEYWORDS = ("当たる", "プレゼント", "懸賞", "景品", "チケット")
 CAMPAIGN_KEYWORDS = PRIZE_KEYWORDS + ("キャンペーン",)
+# 実際の通知で目立った雑音(コンビニの腕時計、自治体のマンホール抽選など)。時計・車のニュース検索で除外する
+NOISE_KEYWORDS = CAMPAIGN_KEYWORDS + ("ファミマ", "ファミリーマート", "コンビニ", "マンホール", "ガラポン", "ガンダム", "プラモ")
 
 # 同じページでもURLの末尾だけが違う、を同一扱いにするため取り除くパラメータ
 TRACKING_PARAMS = {"fbclid", "gclid", "yclid", "mc_cid", "mc_eid", "igshid"}
@@ -520,11 +522,26 @@ SOURCES: list[Source] = [
         strip_selectors=("time",),
         include=RELEASE_KEYWORDS,
     ),
+    # プレミアムバンダイのカードダス一覧(ワンピース・ドラゴンボールの公式抽選販売はここに出る)
+    HtmlListSource(
+        name="プレミアムバンダイ カード抽選",
+        category=CATEGORY_CARD,
+        url="https://p-bandai.jp/carddas/a0018/list-pa20-n0/",
+        item_selector="p.article_title a",
+        include=("抽選",),
+    ),
+    # ゲオのお知らせ(ポケカ・ワンピースの再販抽選を定期的に告知。応募には本人確認あり)
+    HtmlListSource(
+        name="ゲオ お知らせ(抽選販売)",
+        category=CATEGORY_CARD,
+        url="https://geo-online.co.jp/news/",
+        item_selector='section ul li a[href^="/news/"]',
+        title_selector=".infoTitle",
+        include=("抽選",),
+    ),
     news_source("ポケカ 抽選", CATEGORY_CARD),
-    news_source("ポケモンセンターオンライン 抽選", CATEGORY_CARD),
-    news_source("ワンピースカード 抽選 OR 予約", CATEGORY_CARD),
-    news_source("遊戯王 抽選 OR 予約", CATEGORY_CARD),
-    news_source("デュエル・マスターズ OR デュエマ 抽選 OR 予約", CATEGORY_CARD),
+    news_source("ワンピースカード 抽選", CATEGORY_CARD),
+    news_source("遊戯王 抽選", CATEGORY_CARD),
     news_source("ドラゴンボール カードゲーム 抽選 OR 予約", CATEGORY_CARD),
     news_source("マジック・ザ・ギャザリング OR MTG 抽選 OR 予約", CATEGORY_CARD),
     # --- スニーカー・ファッション ---
@@ -533,18 +550,26 @@ SOURCES: list[Source] = [
         category=CATEGORY_SNEAKER,
         url="https://www.nike.com/jp/launch",
     ),
-    news_source("スニーカー 抽選", CATEGORY_SNEAKER, include=RELEASE_KEYWORDS),
+    # atmos のオンライン抽選一覧(タイトルは商品名だけなので、キーワードで絞らず全件を対象にする)
+    HtmlListSource(
+        name="atmos 抽選一覧",
+        category=CATEGORY_SNEAKER,
+        url="https://www.atmos-tokyo.com/raffles",
+        item_selector="ul.raffles-lists li.raffles-lists-item > a",
+        title_selector=".raffles-lists-title",
+    ),
+    # Googleニュース「スニーカー 抽選」は7日で60件超と雑音が多く、Nike・atmos を直接読むようにしたので外した
     # --- お酒(ウイスキー・プレミア日本酒) ---
     news_source("ウイスキー 抽選販売", CATEGORY_LIQUOR),
     news_source("日本酒 抽選販売", CATEGORY_LIQUOR),
     # --- 時計(限定モデルの抽選販売) ---
-    news_source("腕時計 抽選販売", CATEGORY_WATCH, exclude=CAMPAIGN_KEYWORDS),
-    news_source("ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定", CATEGORY_WATCH, include=RELEASE_KEYWORDS, exclude=CAMPAIGN_KEYWORDS),
-    news_source("G-SHOCK OR カシオ 限定 抽選 OR 発売", CATEGORY_WATCH, include=RELEASE_KEYWORDS, exclude=CAMPAIGN_KEYWORDS),
+    news_source("腕時計 抽選販売", CATEGORY_WATCH, exclude=NOISE_KEYWORDS),
+    news_source("ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定", CATEGORY_WATCH, include=RELEASE_KEYWORDS, exclude=NOISE_KEYWORDS),
+    news_source("G-SHOCK OR カシオ 限定 抽選 OR 発売", CATEGORY_WATCH, include=RELEASE_KEYWORDS, exclude=NOISE_KEYWORDS),
     # --- 車(限定車・抽選販売車) ---
-    news_source("限定車 抽選販売", CATEGORY_CAR, exclude=CAMPAIGN_KEYWORDS),
-    news_source("トヨタ OR 日産 OR ホンダ OR マツダ OR スバル 抽選販売", CATEGORY_CAR, exclude=CAMPAIGN_KEYWORDS),
-    news_source("GRヤリス OR GRカローラ OR ランドクルーザー OR GT-R OR フェアレディZ 抽選", CATEGORY_CAR, exclude=CAMPAIGN_KEYWORDS),
+    news_source("限定車 抽選販売", CATEGORY_CAR, exclude=NOISE_KEYWORDS),
+    news_source("トヨタ OR 日産 OR ホンダ OR マツダ OR スバル 抽選販売", CATEGORY_CAR, exclude=NOISE_KEYWORDS),
+    news_source("GRヤリス OR GRカローラ OR ランドクルーザー OR GT-R OR フェアレディZ 抽選", CATEGORY_CAR, exclude=NOISE_KEYWORDS),
 ]
 
 

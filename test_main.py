@@ -216,6 +216,33 @@ class HtmlListSourceTests(unittest.TestCase):
         self.assertEqual([(i.title, i.url) for i in items],
                          [("30周年記念商品の追加抽選販売について", "https://www.pokemoncenter-online.com/news/?id=20260904")])
 
+    def test_premium_bandai_geo_and_atmos_lists(self):
+        cases = {
+            "プレミアムバンダイ カード抽選": (
+                '<div class="article"><div class="article_photo"><a href="/item/item-1/"><img alt="x"/></a></div>'
+                '<p class="article_title"><a href="/item/item-1/">【抽選販売】ONE PIECEカードゲーム 4th Anniversary Set</a></p>'
+                '<p class="article_title"><a href="/item/item-2/">ONE PIECEカードゲーム 通常商品</a></p></div>',
+                [("【抽選販売】ONE PIECEカードゲーム 4th Anniversary Set", "https://p-bandai.jp/item/item-1/")],
+            ),
+            "ゲオ お知らせ(抽選販売)": (
+                '<section><ul><li><a href="/news/783"><span class="date">2026/09/18</span>'
+                '<span class="infoTitle">ポケモンカード 抽選販売受付のお知らせ</span></a></li>'
+                '<li><a href="/news/776"><span class="date">2026/07/16</span><span class="infoTitle">なりすましにご注意</span></a></li></ul></section>',
+                [("ポケモンカード 抽選販売受付のお知らせ", "https://geo-online.co.jp/news/783")],
+            ),
+            "atmos 抽選一覧": (
+                '<ul class="raffles-lists"><li class="raffles-lists-item"><a href="https://www.atmos-tokyo.com/raffles/abc">'
+                '<div class="raffles-lists-label"><span>2026.9.30 8:59 終了</span></div><h3 class="raffles-lists-title">crocs ROY</h3>'
+                '<p class="raffles-lists-price">￥13,200</p></a></li></ul>',
+                [("crocs ROY", "https://www.atmos-tokyo.com/raffles/abc")],
+            ),
+        }
+        for name, (html, expected) in cases.items():
+            src = next(s for s in main.SOURCES if s.name == name)
+            page = f'<html><head><meta charset="utf-8"></head><body>{html}</body></html>'.encode("utf-8")
+            items = [i for i in src.fetch(FakeHttp(page)) if src.accepts(i.title)]
+            self.assertEqual([(i.title, i.url) for i in items], expected, name)
+
     def test_yugioh_news_list_strips_time(self):
         src = next(s for s in main.SOURCES if s.name == "遊戯王OCG公式 ニュース")
         html = """<html><body><section class="news-list"><ul class="news-list">
