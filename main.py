@@ -522,13 +522,12 @@ SOURCES: list[Source] = [
         strip_selectors=("time",),
         include=RELEASE_KEYWORDS,
     ),
-    # プレミアムバンダイのカードダス一覧(ワンピース・ドラゴンボールの公式抽選販売はここに出る)
-    HtmlListSource(
-        name="プレミアムバンダイ カード抽選",
-        category=CATEGORY_CARD,
-        url="https://p-bandai.jp/carddas/a0018/list-pa20-n0/",
-        item_selector="p.article_title a",
-        include=("抽選",),
+    # プレミアムバンダイ(ワンピース・ドラゴンボールの公式抽選販売)は、GitHub Actions(海外)から一覧ページを
+    # 読むと記事が返ってこなかったので、Googleニュース経由にしている。フィギュア・プラモの抽選は除外
+    news_source(
+        "プレバン カード 抽選",
+        CATEGORY_CARD,
+        exclude=PRIZE_KEYWORDS + ("ガンダム", "フィギュア", "プラモ", "ROBOT"),
     ),
     # ゲオのお知らせ(ポケカ・ワンピースの再販抽選を定期的に告知。応募には本人確認あり)
     HtmlListSource(
@@ -550,15 +549,9 @@ SOURCES: list[Source] = [
         category=CATEGORY_SNEAKER,
         url="https://www.nike.com/jp/launch",
     ),
-    # atmos のオンライン抽選一覧(タイトルは商品名だけなので、キーワードで絞らず全件を対象にする)
-    HtmlListSource(
-        name="atmos 抽選一覧",
-        category=CATEGORY_SNEAKER,
-        url="https://www.atmos-tokyo.com/raffles",
-        item_selector="ul.raffles-lists li.raffles-lists-item > a",
-        title_selector=".raffles-lists-title",
-    ),
-    # Googleニュース「スニーカー 抽選」は7日で60件超と雑音が多く、Nike・atmos を直接読むようにしたので外した
+    # atmos の抽選一覧(https://www.atmos-tokyo.com/raffles)は GitHub Actions(海外)からは 403 で読めず、
+    # Googleニュース「atmos 抽選」も過去記事の再掲が週40件と多いので、どちらも入れていない
+    # Googleニュース「スニーカー 抽選」も7日で60件超と雑音が多く、Nike を直接読むので外した
     # --- お酒(ウイスキー・プレミア日本酒) ---
     news_source("ウイスキー 抽選販売", CATEGORY_LIQUOR),
     news_source("日本酒 抽選販売", CATEGORY_LIQUOR),
