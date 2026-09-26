@@ -1,0 +1,867 @@
+{
+ "version": 1,
+ "source_health": {},
+ "items": {
+  "https://www.30th.pokemon-card.com/product/goods-01": {
+   "title": "9月16日（水）に発売のデッキシールドを一挙紹介！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.30th.pokemon-card.com/product/goods-02": {
+   "title": "9月16日（水）に発売のデッキケースを一挙紹介！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.30th.pokemon-card.com/product/goods-03": {
+   "title": "9月16日（水）に発売のプレイマットを一挙紹介！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.30th.pokemon-card.com/product/goods-04": {
+   "title": "9月16日（水）に発売のポケモンカードゲーム周辺グッズを一挙紹介！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.30th.pokemon-card.com/product/goods-05": {
+   "title": "9月16日（水）に発売のショッピングバッグを一挙紹介！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemon-card.com/info/005629.html": {
+   "title": "「シティリーグ2027 シーズン1」事前抽選のエントリー期間延長のお知らせ",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemoncenter-online.com/news?id=20260821": {
+   "title": "【第二回】ポケモンセンターオンラインでの30周年商品の抽選受け付けについて (外部リンク)",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemon-card.com/info/005612.html": {
+   "title": "「チャンピオンズリーグ2027 横浜」エントリー期間および抽選結果発表日の延長について",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://youtu.be/MYP-4zxPFYc": {
+   "title": "7月31日（金）発売の周辺グッズの実物を、動画でチェック！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.30th.pokemon-card.com/product/furbox": {
+   "title": "「30th CELEBRATION FUTURISTIC BOX」が、9月16日（水）に発売！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemon-card.com/info/005450.html": {
+   "title": "【重要】ポケモンカードゲームの商品販売・イベントにおける本人確認システムの導入について",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemon-card.com/info/005411.html": {
+   "title": "「ポケモンジャパンチャンピオンシップス2026」カードゲーム部門、エントリー受付開始！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemon-card.com/info/005069.html": {
+   "title": "ポケモンカードゲーム スカーレット＆バイオレット スペシャルBOXの追加生産、および追加販売のお知らせ",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.pokemon-card.com/info/005385.html": {
+   "title": "ポケモンカードゲーム 30周年記念商品 世界同時発売決定！",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://lifetunes-mall.jp/shop/e/ecorociao-order": {
+   "title": "コロちゃお受注販売の受け付け開始！(外部サイトに遷移します）",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.corocoro.jp/corociao": {
+   "title": "「ヒカキン道場 ポケモンカード入門バトル」事前応募受け付け中！(外部サイトに遷移します）",
+   "category": "トレーディングカード",
+   "source": "ポケモンカード公式 お知らせ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WdldzME1TYW1UMm1Ra3JXSUwxa3I0WUJMRV9kWW5LQUwwM2R2aS02SVAxOE15c3FwRG1KekNSVjRfaWk3aGNZZTJQclNsWWNNc3NkUlRqZw?oc=5": {
+   "title": "【ポケカ】Amazon抽選販売まとめ。30周年記念パック“30th CELEBRATION”やフシギダネ・ヒトカゲ・ゼニガメのカードセットなど",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBhY28xVVJlcVRwa0E4WEN4SHJPamUwTkJBZ0pyTmgtZDBsa2FTX05hcUxheVZBeEEwcHV2OEo4RFFsNVczMzlGSGdaY3E?oc=5": {
+   "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SWnFNcTVjUjg5WmlqZ29zcTVDZWNVa2dRTzZJRlh0NFFjN0U2RWFkVi1WV2pGSFIwV2ZqUkFzUE95Y19udnViaW1kNV8?oc=5": {
+   "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【9/26更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5rYTVkODVGUUtEZXhCQkRRUjMwc2dkRmFVX3NyWU03OWFhczF6QnNEQnJ4UXJyOWRRb1c4RnVyWXpOWWF6dnV0YW9TUTY?oc=5": {
+   "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KT3RUcXlaVjlfZnQxN1dnNy1IU3RuTmtKWVdIYjFFZlJQcUhkX0JueDllYmhlOVIwZlRyRlc3UFhBWFJXMWxvRHppSi0?oc=5": {
+   "title": "【ポケカ】スターターセットex「イーブイex」「ゾロア&ゾロアークex」「ニャオハ&マスカーニャex」の予約・抽選情報まとめ【7/23更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ucWpSOW4zT25ORzEyS1Ezamo3YWVoaC03ODJ1SkVjMDlhbnlpNHpyb2QxbVdHdE1WVm1XTGIzRGNvaTZHNk92WGF4NGM?oc=5": {
+   "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【9/25更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmekkwUDE4RDlGRUNhLXl5NUhyb3IwaFg1YjFBRW9qcFVJdzdpb2NodEdyY0h0V3dwdVp2RHF3cU5yYWlHemlaUlZsSHM?oc=5": {
+   "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xaVBYVEpLTTZNalFLTUw3UG52Sks0VjkwZW9TY0pLTVI0MzVvejc1NmowTnNvcDZWMTFDRTBqUVNjbmNhek1ZVTFCbw?oc=5": {
+   "title": "9/25発売｜atmos × adidas Originals TOBACCO 2colors｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5IU3RDRThKZ1hOVWF6WGExMDNTZHJTQ3pMVHdGSnBPUzFzVHpvZGszZ0N6aUJFaW1JeW1Lbmw4emhhXzhFdzRBa2hXTGY?oc=5": {
+   "title": "【ポケカ】ストームエメラルダの再販はいつ？再販入荷情報まとめ【9/22更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVcXJtXzNBLUZrZ2pZR3ZUblhLV2NHQ2MtMXlmbnZHV011Z0c5N0QyTGVLSFcwTlNlVlRjUXhGeFNHWW1WZVBoaHRCMDY?oc=5": {
+   "title": "【ワンピースカード】世界最強の戦士の予約・抽選情報まとめ【8/21更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqRElDZThOTkpEbG41TW83Y1doSjJ0bUtjQVJON1VuUjFxMU53ZC1qUHJDMkxDbmpTSTk1RmlUbXYxMmVCWEpHVWtrdVRGUm5Bcm0xcWVpcXcwX1Rh?oc=5": {
+   "title": "10/1発売｜Number (N)ine by Takahiro Miyashita × Timberland 6inch Premium Waterproof Boot｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QcTFMek8zZmp3UVV1WHUwSWZpMjFodFBma0QxTm9lclAxaEg4YV9qcWlfRDV4VjJLLTZRLURjYnowYVhrb2VpV2YzNC1uV1JQZEROOQ?oc=5": {
+   "title": "神の支配OP-18の当たり候補は？発売日・予約・封入率を解説",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85NHFlWXdBZTBBMWJUbVdLazlLZ1I4aTBfZnpjaHlUSVAyRUxHZzZWcXBRNjBrT0VGVEw4SzF5UHBWMFhFVHpUWEJjbXc?oc=5": {
+   "title": "Supremeの店舗抽選・並びとオンラインの購入方法紹介｜コラム",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8wZUEyM3A5UFRBU2ZMV2Zoa3Z1LWtOQWVBc3V3cXU4RDRObTZpWkpVdHVuek9yRG1HdTRMV3NwSG1YYlkxanpVRC1GQ1Y?oc=5": {
+   "title": "【9/25更新】Levi’s® Vintage Clothing 再販の予約・抽選情報まとめ",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBwLTZ0Rm5GUUd5Y2ZyNmlTcEY1TXFjWTFlTTZIemJ1ODd6WDdPYzZoRlF0T3hWalFQMFhLaXBJSU9pVjFMRzZyNzF0REk?oc=5": {
+   "title": "【ポケカ】ロケット団の栄光の当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VeXRrUkJqMFJjZjJuVzgtcnZicGUycVBTTGd0OGRRQ1U0QjhsOG1BVXJlS21MRTZTR0VGb19pMWU5Vks5Yllpd3dUVnc?oc=5": {
+   "title": "9/29〜抽選開始｜Levi's® Vintage Clothing S506XX 1944 Jacket｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE00VkQySWxhUHh1Z01VSDZkMTRIZ2t0VzN5Zm5wOFE5U2NDRGkzcmctUWpIeUt3YUtRMlJOV3MtckN4Vzk1dTMyWHprazc?oc=5": {
+   "title": "5/20〜抽選開始｜Levi's® Vintage Clothing S506XX 1944 WWII Trucker Jacket \"Blue\"｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBFUTlYVXlteGR1RGlwVy1QY1gwMVA2d3FpbFQ4ekxWTU9LSGZHaVhZcThqLWNGcTlXb2tuNmR6cWpHdXZ6bkJhTmJ5ajc?oc=5": {
+   "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1UU3l0QmhLUllZazdNRTNzNjNxemRPQVpSZTlodTZJVFE0aWNCWjlIS0gwTk9nVDBCdVFaa0pENm5qWVpjTG9xcTdGcXI?oc=5": {
+   "title": "5/2発売｜adidas Climacool \"Off White\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNdXFjZGFMRVBBb1JrMVAtWFVpeVV2MWU3aXcxcjNkMVVwQUY4OXY3a1hZRk50QmVzdmloZDd3cWRnaDZlN0R5Nmo3YzlSQmZhNEdwQ0hreHNwVGR0dFhzSHVUYjRYZVR3X2xZR0plYi1vR2lULXRfZ3BZdkNCVHE2V05md3VWd1Z5U1RyQlpSc0RjUXh3S3VkeVlBSDBoWDEtUHotV1hBcWh3V2Q1VzdBRHFteEJLYTV6a1dHcUUwQ2xFdnB6UjM3SW00dl9KQ3g0aDVsWWcxY3pxX3J5TUFMMHhzQ043dUxfMmRXVDBoRlIwLURDS2lHNm9laWp4X0pMd2tXNUtTTHhuOUoxN05veUZWUXpwTDJuNXdjMmo2TXJjTTFhZ3kyWWZ3WnlIMW1BYkE4am82c2lEdktpLWRYc0NMOUtldGNFcHpjMy1Yd2h4ZHpBc3c?oc=5": {
+   "title": "11/6発売｜Stranger Things × Nike Dunk Low 2colors｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/kobe-3-protro-black-and-white": {
+   "title": "コービー 3 プロトロ 'Black and White' (IQ5340-001)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/air-jordan-1-low-og-garden-apla": {
+   "title": "エア ジョーダン 1 LOW OG 'Garden' (IR0088-001)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/nike-x-one-piece-behind-the-design": {
+   "title": "Nike x ONE PIECE｜Behind the Design",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/nike-one-piece-apparel-collection-static2": {
+   "title": "Nike x ONE PIECE アパレルコレクション",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/street-snkrs-dr-bs-research-lab": {
+   "title": "Street SNKRS: Dr. B’s RESEARCH LAB",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/story-tom-sachs-demerits": {
+   "title": "トム サックス 'Demerits'",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/nikecraft-general-purpose-shoe-demerits-black-and-white-apla": {
+   "title": "ナイキクラフト ジェネラル パーパス シューズ 'Demerits' (FZ1363-002)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/air-jordan-1-high-og-royal": {
+   "title": "エア ジョーダン 1 HIGH OG 'Royal' (IQ5495-005)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/zoom-streak-3-black-and-total-orange": {
+   "title": "ズーム ストリーク 3 'Black and Total Orange' (IQ8012-800)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/air-force-1-07-green-apple-and-chlorophyll": {
+   "title": "エア フォース 1 '07 'Green Apple and Chlorophyll' (IV6822-399)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/kobe-8-protro-mambacurial-red-plum-and-pink-flash": {
+   "title": "コービー 8 プロトロ \"Mambacurial\" 'Red Plum and Pink Flash' (IO6253-500)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/kobe-mambacurial-apparel-collection-static": {
+   "title": "コービー マンバキュリアルアパレルコレクション：STATIC",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/air-jordan-9-retro-og-white-and-black": {
+   "title": "エア ジョーダン 9 \"Space Jam\" 'White and Black' (IX6179-100)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://www.nike.com/jp/launch/t/jordan-11-mcs-gratitude-white-and-black": {
+   "title": "ジョーダン 11 MCS \"Gratitude\" 'White and Black' (FV5415-107)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FWXUxdjBEMjNCQ19OOUN6WGlITXhYeTROc2VsYl9RQUZxclNndzlpck11Znhjc3IzY0Q3QXBmYmtYN1FqVnY2dTYzTlM?oc=5": {
+   "title": "5/27発売｜Virgil Abloh Archive (V.A.A.) × Nike Air Jordan 1 Retro High OG \"Alaska\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5EQl9QZWZxblpkb3AwTUpmZ3dzaWNtYjNiRHN1RGhDWS1HcXZJSWM0U09GMkpBOUlfMDhMOE5zQ0FkNHhSaDRVa2p5Tjg?oc=5": {
+   "title": "5/27発売｜Fragment × UNION × Nike Air Jordan 1 High OG \"Varsity Red/Sport Royal\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SSjVNSm1XQjMtX3ZxWkVyR2dpeExDcktza0pXbGN6M2dEdllWNXlGWjJzN1RYMUxvUlhlQ1pfTTlTa1FpLWF6V0RObDk?oc=5": {
+   "title": "11/28発売｜Nike Air Jordan 4 \"Black Cat\" (2025)｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1aTkRRSkduMnpUMmJCb1d2bnE1X3doODNNQ01iSS13enMzS3Z2Z3JRdWRYZ3VzQzMwUlR3S0pKZTNGY0xmaTJfdVgzOTk?oc=5": {
+   "title": "3/19発売｜YOASOBI × Asics Gel-Kinetic Fluent Y 3colors｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE92RGUzbDdvbjl5cXk3SW9wT3VfczZVZTRYWXl5aW9nR1E1YkNEVlcyUmZvYUUzWHlEUXNtZHkxMzBTWG5oT1ZKM1VxV1Y?oc=5": {
+   "title": "9/12・9/15発売｜Yuto Horigome × Nike SB Air Force 1 Low \"White/Iron Grey\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1sVHZxZU1DR2R6WTQtNmFhemtZOGtLRXFLNzJsRGRTZDVpN0xDOXF3alZWQjg5aUh5Zjg3WTRsUEZpUkNqRTZVZ2ZBZw?oc=5": {
+   "title": "9/13発売｜Supreme × Nike Air Force 1 Low 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2N1N3V2FleHhjTlB3dW1CMGNwaW8zbVkyNW54UG5Ibjdjd3BrbERQeGRRZHZUUFVqTmJnUFgxNUhRa0RhN0FFRVM5Qlc?oc=5": {
+   "title": "9/26発売｜Supreme × Nike 26FW Week6｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zbk9OQVBOTWcxdWZSc3lsU2RnNy1Bck9tWkk2cFlRNXowR09VaFZNY0h3anc5QkhkRVAxUFF6QVlPZElVdHB3WVdNNzk?oc=5": {
+   "title": "7/12発売｜Nike Air Jordan 1 Retro High OG \"Shattered Backboard\" (2025)｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tQzFCNk45bENBaU8yazlvUGZRd1JvUlFWQ1RyaVV0ajBaeWhEMGZYLXg2cWlWcUdmREw0SVg5U3I4SFFNRkx5OTh2UkM?oc=5": {
+   "title": "5/29発売｜POINTLESS JOURNEY × atmos × adidas Originals Superstar 2 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QcjhGTndRdDNXRFlTS3ViT3RnNlRqVHRCaldMTHpBeFg4WEd2T2NJQjIySWdFYWhzXzlIM1pmWkhBR2N3dXVLN2NtZW8?oc=5": {
+   "title": "7/4発売｜PEACEMINUSONE × Nike Cryoshot CTR360 \"World Cup/South Korea/Natural/University Gold\" / G-DRAGON｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9WM1RxUnV5RnhJQUFFZVJDOEZxYm8tZ1FKUzMzUG9rbXRGODl1c2VVWFhLa0QxYkpQLXRXcFplWUNpaWJ3b3kxSlRIZmM?oc=5": {
+   "title": "5/30発売｜Nike Air Max 95 Big Bubble \"Neon Yellow\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4wVW1PMXp6STA0VVlzc21Yblc4ZGZLN0NrWllsa3I4d0NCUDRIcWY0bEdpY0tfWkRpQ0kteEtFazVzME1qMXFmelo5cDQ?oc=5": {
+   "title": "6/6発売｜Supreme × Jordan 26SS Week15｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4td0Z3LVlpcV80RU1VNTVDWExHSjgwcGZrdXhwVXEtRW5CRkd1N0FRVUtxTE9wZUhZZ3R3ajJBb1M1VUlpSWE4cnhKR0w?oc=5": {
+   "title": "5/16発売｜Nike Air Jordan 1 Low OG \"Banned\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01RzVqVFUyem9DdjQzSHlCVU8xMlNkVk9ULVVEQmN0X3RUMjA1WllQU2p1X3g1NDNTUW9qR25WOEFGeE5wLUhmeGZtV3E?oc=5": {
+   "title": "2/3発売｜Nike Dunk Low \"Setsubun\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5FajByeGVFX0xNUGtTMlhUZlNOUzNNNGVwa18xZDJSVURFT2RQVm9FekJtZlZMbWE5b215bGNNOTdiLTlKVy1WRDlNTWo?oc=5": {
+   "title": "8/26発売｜Nike Dunk Low 2colors｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1IaUkyMTBqVVRNc1FiSHBOLWRRMjNuR2Noek5tWHBfVzlnV3dPenFoa1BfVWdBMHhpM3BzUlpMVHM4ckg0WGxKSFdWM00?oc=5": {
+   "title": "最新リーク｜Nike Air Jordan 4 Retro OG \"Bred\" (2026)｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBDb2VQeWF5cUFfSDUwYm1SV1VyZ1BuRzZvYzNlMUNha3k2QllaaG1IWVZVMVdGeXRtSThjeW1heFltdmpGNWxIdzhCeHY?oc=5": {
+   "title": "9/5発売｜Nike Air Max 95 Big Bubble PRM \"Greedy\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LaW0yaEZGZnlORllRbnM5b0dhMksxejl6X04tYzFvTHNpMFBwT0ZmSENrQWJHVFRaelh3M1lWeGpjQjFOVlVxcTBRMWY?oc=5": {
+   "title": "近日発売｜Palace Skateboards \"Winter 26\" collection｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1zLV9tSWlSMllfeV9kdkN5OFBPbVdPRnF1SjBaMmJoVFRVemstU2hSbndkUThtUmpIaDVSN3dkNUlCU1h0V0hnMjBXSFE?oc=5": {
+   "title": "7/25発売｜Nike Air Jordan 4 \"Comic\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE53RkZVUGRHN3hTU0dsVXlMd1F1RGJkS1FXVF9vVW84NjRXZTBySkotNzR6NzlvOVRfTVhNQ2UwMGdLLUZHRGk1S2hYcjA?oc=5": {
+   "title": "7/31〜開催｜Nike Air Jordan 1 High '85 \"Reverse Shadow\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9NTGxuUWZ1UThOVEtLTnVReTNZRjFqQjJQQy1zWnJsbmJ0NVh6ZmVfc2QwdVU3OU9FeVViZjlzbnJwc2tZZWxHS2hJT04?oc=5": {
+   "title": "4/30発売｜Nike Air Max 95 Big Bubble \"Slate\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nT19XM0hSOG1GZExGMnFVTnJKWlV6WFNBY3FZeFlMZlMzX3V6TDFaS09GSTJBN2s4VXA1NF9UbVpCNGhQdXB5ZlpUU3E?oc=5": {
+   "title": "1/9発売｜Nike Dunk Low 2colors｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rbDYxSl9FbEd3RDlsSlJ5RFkwNGJfLTRkcnFvSUhsaVB3dFRBd0NMZm5PUVFxSlMxbkRPckE3R2VLV2NJRlR1RXdGcVE?oc=5": {
+   "title": "3/31・4/3発売｜Fragment × Nike Air Liquid Max \"Black\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE51dnRxZC1yM19NeUtWd3V2VUhkWjZRUUJ0bF82UERaNjJwNE1lalAxbXVidVZaeXZMM2JTakozenVoU0NHb1FXNWNpWk4?oc=5": {
+   "title": "3/7発売｜Supreme × Nike SB Air Max 2 CB 94 Low 3colors / 26SS Week2｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WUFdkeTE2akhHUHFReUxLVXM4MkFzbW1pbng4eWNkQXF0ZXRNWTFTai1ndmJBcVpkYjRQa0NmTm5mamlibEdESGtmQmo?oc=5": {
+   "title": "2/13発売｜Nike Air Jordan 6 \"Bin 23\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SQmJ4cXRTblBLX0dHOEhTMEc1elZnSzJfLS1lMlhvVmVRNGR1aFlmSmFmQlFMZVBwMmRaVDlQTk5OT3JWbl80ckhKdWI?oc=5": {
+   "title": "海外5/1発売 ｜Nike Air Force 1 Low \"Black Tiffany\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5pUFFTbXVBcW1VU1dGZ0ttUktzb1VTa3gycjI3QnRTdHlreC1WNzlVRjdMMmJiRGtHeW1zbkViYWFSMEd0RF9YWlBCb2Q?oc=5": {
+   "title": "5/27発売｜Travis Scott × Nike Jordan Jumpman Jack TR \"Green Spark\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBrTmQ2M1FubUk3T19sVU5OXzZpVmV1NXdEd2FuLTZkczVEMEV6VVotZUlDYUFvN2RYU2NqNS1FTkdRQnB6YU9jOXhKZUo?oc=5": {
+   "title": "8/22発売｜Nike Air Jordan 1 Low OG \"Laser\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1vV0FBTG8zN09zYVdpeGg5cXIxN1I5OXFob3NDR3VBa2hNOWFtTGM0ZFBtWGVTaFRxN25SMzhYbWNaZWxFZVUyZHliQ3Y?oc=5": {
+   "title": "2/14・2/16・2/22発売｜Fragment design × Nike Book 2 2colors｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9fbTgyYm9wYzU0WXBidmdXS0JZX0U2TmppaFdvNllfT19kZ3dFTm5iMXBSU2dEN0hfb0NUZjYybHZickI1NUd0MHdIRUU?oc=5": {
+   "title": "​8/29発売｜Kobe Bryant × Nike Air Force 1 Low Protro QS \"Dodgers / Wolf Grey and Rush Blue\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE92QlV5TUtZVDhhX3RSeTh1elVkTW1HVE5XZUd0Z2ZpYTRPcjl5dkNvdzc2VzNNdGFXVi1QSll3QmxucVhUVXFqd0UwaHA?oc=5": {
+   "title": "7/25発売｜Nike Air Max 95 Big Bubble 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxTldOOURseFVGUGlFdjdvMlhHZS1oelpORnJicy0xNzN6MnhnXzVfeEhJNjZpWHMwWFBRSktabzUydUdQWFFQZklGYzY?oc=5": {
+   "title": "5/29・6/8発売｜Travis Scott × Nike Air Jordan 1 Low OG 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE13RlNIb19vU0E3T2JPbngzVGNKY3NDRjhwSWJ3TzZTYm16bEk2b1A4SXZ2Nk0wbEpmVUsyQlpfcHNENlRDMEY0eVZSalI?oc=5": {
+   "title": "9/4発売｜Kith for New Balance 15th Anniversary Capsule Collection｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5kOXdid0tBTEd5NkctejV6eFpKZ1pIY1k5amdSTzVMQ2dqVU90Q2p2blo5eTl2ajNlbks1TUVCWVNNemp6Q05OMmFXbFo?oc=5": {
+   "title": "9/16発売｜New Balance 1906L 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBGcDNxTjJQZmNCVFNCQWFOdmd0NTRtVVVXU0g3THFRWTFTUmpUTjZGQUtFM3dCN2ZIZ2x5S09ZLWY2d2VnbWczQ3czT0k?oc=5": {
+   "title": "発売中｜Nike Air Max 95 \"Linen\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1GZXotUDAzaVJwWnFLWHpFUUE4R2czNU1rSmVRcEtTWk9kZW1RQlB2dGQzTjA2M1hwcV92aUp5enc5QTlVRkJsa1p6cmo?oc=5": {
+   "title": "3/29・3/31発売｜NOTE Manchester × Nike SB Dunk Low \"Flax/Summit White\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5mSVZqUVVQWFVwaVhmWEN0YlhsY2N5ZDdydkV1RFJ5Y2tmaWg1dWZjTTNlSmRnSGdKXzZuc3QxN3h3ZHJ0R0k4OWxCZTc?oc=5": {
+   "title": "10/24発売｜Nike Air Force 1 Low Retro \"Houseflies\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4tVkUzd1pvR1JsZjBfQkQzdEFYU3VLRVJ0U2JFdGdQU0R5U2lvSFA1X0U0MU1UeFNRZE94MUpFcF9MZThENjFzMlo5RDQ?oc=5": {
+   "title": "5/27発売｜Nike Air Max 95 OG Big Bubble PRM \"Comet\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1xSjNrWmlsVTdZM3Fod0lBdEJZN2doV2hHRXcyaUg4cEMtUDhvaHUzV2ZBdWtabGt6THBabVVJemdKX18yN2Y1R29oV3c?oc=5": {
+   "title": "5/18発売｜Nike SB Air Jordan 4 \"Summit White/Navy\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE84WEVVdFhHRl9BMkNNMFVWbEd5VW5Ja2lPd0diMUpLSElvamlDSDNMWEgtQkxYTFozNDlyaUl0bUdXRFQ5ZC1CRHpMVEY?oc=5": {
+   "title": "2/28発売｜Nike Air Jordan 5 Retro \"Light Graphite/Wolf Grey\" (2026)｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBNd0JIdVN4b2NpUE9ISXY0ZE5tWGV5N19QNDdGUWYyQk5LVGlmTk1JTlBHMWl5MHFfaXZRam1qVEdaR0xTaUd5YW5OQjQ?oc=5": {
+   "title": "4/4発売｜Nike Dunk Low 5colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE53WkhwQWJqQlJIWERhRVpPaFVpMW9GRk1xTHBMV3ZtVHBLaU1jSHp1emQtTkJjOEx4M3FlT2V4M1gwdTY1SDQxU25NQ1Q?oc=5": {
+   "title": "9/12・9/19発売｜Nike Mind 001 \"Black/Hyper Crimson/White/Chrome\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9fSDBDU1RyYVk4QXBsZE5YZl9pSmJJWk82bkxicVE2MUx5b3pHd0VLdWdEa2FTZjdtN2xwNlhxZDlhR1ZobU1SSGRFZHg?oc=5": {
+   "title": "3/17発売｜Dashawn Jordan × Nike SB Dunk Low \"Copperhead\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5nQkdYSi1MVmdrRFZPUERzN1o5dWNjWHlDZjZXZHB3Y0R6ck41WDNLY2hWWDBydFRiN2NDX1NlWnN6RkZTd2RsOU9HWVY?oc=5": {
+   "title": "10/30発売｜Nike Book 1 \"Halloween\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOR2tRc3NEMm1ZR3VrRVNwV3ljN0gxRWFnRkVSUncwMlRRZkJ2cUN0cDM5OURLMGhhSkxURHZzeThVRTluVnY4YmdVUlg?oc=5": {
+   "title": "4/6・4/12発売｜Nike Air Max 95 OG Big Bubble \"Granite\" (2026)｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5vekhGcWZxSUxTT0VBR2t6THlVNEtVTWF4dWplejdKelVxbzZ4T2RoLXhlcW5ZVXV3aDA3bXV2UXV0b0dLZDI3bEM1aGs?oc=5": {
+   "title": "10/10発売｜WTAPS × New Balance ABZORB 2010 \"Olive Drab\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5zc29kcEszMGRvbDZ2ai1qR0VJcDUxRE5Mdnd3YncyZVdaVTRhVXVLYktlWXdxel9KcW8wU1diYzR3aFNzY1BES0w4enc?oc=5": {
+   "title": "7/15発売｜JJJJound × New Balance 1890 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBNdF9QWFpfaXNzWFFPbHVZdi1KTDA5eUlfMEdaemFDaWJHRUJ2OXBLVTZyQTBLR2dueDVEcDRpRUMzazhmUTlIbkRJSWQ?oc=5": {
+   "title": "7/4発売｜Palace Skateboards × Nike Cryoshot collection｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1UZUcyLUR1UVgtbzhUamxRQWVwbFZJbGprZ0RyTmxOdERnRGVic2NLQ05Nb2FKNkRMX1VmTnFtOXRybWgxYWpqTXJQTmQ?oc=5": {
+   "title": "9/4・9/12・9/25発売｜ONE PIECE × Nike Air Max Plus \"Devil Fruits\" collection｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBsRmZZVkZrcmFDMmRyQlhXbnNYWGRfQTdpajBwQldEV3l3T2llXzZGNzJNdHBtWUtGYS05cTBjTlRDU0ludWJXTGpReVc?oc=5": {
+   "title": "7/28発売｜New Balance 992 5colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0yU0FFcVRCS3RjaHhNTU9Za0pveDM5MVJQWkJSUEJMd01MOFNRTVBoRXVkUE1DSl9kTU5TTERCUGtwRjZOMF93ODRqanI?oc=5": {
+   "title": "9/19発売｜Supreme × Timberland 26FW Week5｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1DWVg3SXE1ampIdlpjZERrWFMtVEpiUEhrMHlXUHU3NHJqWHlzN0swMzQ5UE5Od3pWb0M1NE5vUHBhc3JadTZfWkVPLW8?oc=5": {
+   "title": "5/22・5/29発売｜AURALEE × New Balance 204L 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBbHh2Nng5ck54Y0dtNFlXelB0NmJldlN3bWNwbG1tTzlwODdBTzhxam1YSjJURkpzUXhCMjhBMnl4cHg1R1NHTXM4N0U?oc=5": {
+   "title": "9/4発売｜Nike Mind 001 3colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1UdHVPeERCa21fbFFUTWJteU1jZm1zVjl4VFlLZm1PQy1jWERfOVJ5WjdhbTI0RmhySURyd2s5LWI2ZkRpQ29zOV9LYms?oc=5": {
+   "title": "9/20発売｜Drake NOCTA × Nike Glide 2colors｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QdjlmcmxPYWM5TzNEYXNKN20wQXFpaFZBbWZyQk8zZG16bU1JOXY0dEpyNWZxRTdwaG9lREpsS3Z3aWlSY2tndXc3MXA?oc=5": {
+   "title": "9/20発売｜Supreme × Nike Air Force 1 Low / Dickies 25FW Week4 アイテム一覧｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yb2NoWE5FZWQwOEFwbkM1amR4OUdvU2dvZ281M3lyWC1rWFgzRzUtRUliVkJta3NFTk5iTVlUZ0FpOG5TU2prSUFlRXg?oc=5": {
+   "title": "12/23発売｜Nike Air Jordan 1 Retro Low OG \"Chicago\" (2025)｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5GbUFibGMzVUpQWTM3RFRCbUljZXdYc1FIQ0pMYjdOVG96SzNVVjNDYWJkbTBuUzNTTFp6WVNiR0NIbTdWLXFBOWVBUUg?oc=5": {
+   "title": "海外9/4発売｜Travis Scott × Nike Air Force 1 Low 07 \"Ice Blue\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5uV1JROEJfQUF5TFV1UGI4NGZEcVdIb1dpUlJla1hvNGdORks2aXItYmwzZml6ckhxUW1QMmZkVkZKUTNvRjk4R1lZbnY?oc=5": {
+   "title": "最新リーク｜Travis Scott × Nike Air Jordan 1 Low OG SP Pink Pack｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1NMVhqVUVKT2o1Q000WWhUSHpFRC00SzE2azBhdXl0cVV1eHlhWHlDamRSS1dGbUUyS2Q4dzF6dEVVWUxqdzZ3QWN0ekM?oc=5": {
+   "title": "6/11・6/12発売｜Nike Women's Air Max Phenomena SWDC \"Black/Metallic Gold/Smoke Grey/Pink Foam\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lbEtfMnN0cUNfUXBlTXRDblltVWc1eTlYRlRaWnNEelNEUzFzWG4yZ1NSMkdWcUE4NUhhd2tINFFENTBNMUVyeU5CSkE?oc=5": {
+   "title": "最新リーク｜Virgil Abloh × Nike Air Force 1 Low \"Sesame\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBHSkFxZVZudFhOYmo1RFpWU3BwY3Y5a01EdW5MTG10QWNNeFRQbFZ4MHlDTlU3a3BrV1BDMDg4ZFNwcllOeUZETW84WTM?oc=5": {
+   "title": "9/28・10/1・10/3発売｜Travis Scott × Nike Air Jordan 1 Low OG SP \"Reverse Olive\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85UHRiLXpNcENFNmtXOTJ5d2wyZ3lka3plNTJjdkptRjNBRzNNU0I3S0E1ZkpfVU9pSTNHMkpZckdYNldRVDRwVVUxNFU?oc=5": {
+   "title": "5/10発売｜Nike Air Jordan 1 High OG \"UNC Reimagined\"｜抽選/販売/定価情報 | スニーカーダンク",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93LWVwSmZqaExwQk1hOWVGZFBLNWstVFZuVl9WcmxDNTYwLTFNTTM2VlNBLUQ0SDRyZWZkWUtFblhwLS0xekVMRGVUZWo?oc=5": {
+   "title": "5/25・5/29発売｜Travis Scott × Nike WMNS Air Jordan 1 Retro Low OG \"Canary\"｜抽選/販売/定価情報",
+   "category": "スニーカー",
+   "source": "Googleニュース「スニーカー 抽選」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wZjBjYWlTRmdSUXBEa2V6UHVqSGw0UWpXV0tfcVJYYmhfUTF2dk1FS0xqT0JGMGlrZ1VBYVZsbS12Ukp1eHJLbm95MVdkQW9WM0pDbVNlbFlkY2RfanJHMXhUQ0lmdFZWcFE?oc=5": {
+   "title": "ウイスキー「響 BLENDER'S CHOICE」が“1万6880円”で販売中。抽選販売の1万7600円よりもお得",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUTk1SkF3Z1FQVTlVTGtEaS1mWXVWaERGM3BZbzQ4QlNBQ2ttdWZ5OEZkdUV5Tmh4NUtsNnRMS1NHWkRQX2tRRVpzaFVHZ2N4b0JlSDJZZVlRS01Sa0pNOXl3Qjdya2g2Q1FpX2ZBQ0loRFVvRUpJV2hsTjlEaHByOFBRek5pNWIwekdYZUZn?oc=5": {
+   "title": "山崎18年や12年・白州・響などが抽選で当たる「ウイスキーみくじ」第158弾発売 (グルメ Watch)",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpYzZtMHNRM0otbndsUmNjTEZHS1ZxUWtYRkVMbmpaekJfS0dZSy1nRS1pNW5LMFBBck9sTm45b01INXRXcHQxVjkwOXlUOC1vSTYycWtFV3RtS0Z4VnA1Q1B6NmN2czBBdVE?oc=5": {
+   "title": "『超電磁ロボ コン・バトラーV』ラベル・ウイスキー 10月8日(木)より抽選販売受付開始！",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE15YmF2aktHUXIzMm9PTFpJdnhxR1loTk1WdnhxcGRYV2l3akNBbE5kMkV0RFRSYnhkZkszT0Q5aXRvQXBHdUFILThYTXdVN3FDdDdmM2J4bWIxT29uRUtYV090VHZySkFrcWc?oc=5": {
+   "title": "ウイスキー「山崎18年」をAmazonが“6万7100円”で抽選販売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MNTQ4V2RhOFNBRUNVbzgyWFlxX3JiLWFOMFQ3UHpPWHlTWkZ3N0h4TEdlMUl2UzBabWMzRXI5X0xkbUdQOGJLOE5Sd2h1QUQzS3dFS3lvZUpERVl6Sm9GdzdxRk16LVQ1VFItQjZObjQzLWM?oc=5": {
+   "title": "「るろうに剣心」ラベルのウイスキー、限定で抽選販売！ 優しさと“人斬り抜刀斎”の強さを味わいに",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxON2lKY0RhSGtkYkx6UmV2aXVGaTdpWGRaVVplSmV3VnJvMHZBZ2EyQmh6LXZYZ3FMZEdKeExjWnZ2dTRBcmRxeFVweVdwbmJ2c0lkbE9JSkRaWXFJZzRaMU4zUVZHM2JhM0thYWEwM3hrY2pLYUtJSW5taTk4V1Nqd05naEM1eVBxRjVESEx3?oc=5": {
+   "title": "オーケー、ウイスキー「山崎18年」「白州18年」「響21年」「竹鶴ピュアモルト エッセンシャルズ」など抽選販売 (グルメ Watch)",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82NVRPbHppbVhJal9fU2hYZnk3WmljYkp4ZFNSQjN1bndnQ0hiQnJncE04ekJfaVp0RmxJZTFPTTY2aGphWVhGYmNIbVE1TDRDQU9IQjRGRlpqVkctbEc0?oc=5": {
+   "title": "ウイスキー「白州12年」をサントリー公式と同じ“1万7600円”で抽選販売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE95VHV2ZFNsODRseUNJTElVeElHMklpZlk4NXI1c3hSQlRNejdRMHRBZnRLQWFjS1FsUVpzZ20xOWdMWGtpdEg5aWtJdXdaNWhnLUlQZVFKM0RVdXJmaW5VN0lVT25hbmlhVXc?oc=5": {
+   "title": "オーケー、ウイスキー「山崎18年」「白州18年」「響21年」「竹鶴ピュアモルト エッセンシャルズ」など抽選販売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CTnF3eHIzV0JnemhZdlJzZmdlWGNGVzRpQ0RHWDk4aEN5LUUyWlBuR2pfV0tuaHlRLUhzeU9POF9vWlJZVHdLY1RUZFpmMGhyU09RS2J3aFNrZE9PYldWbjh2SU1NMGNEN1E?oc=5": {
+   "title": "山崎18年や12年・白州・響などが抽選で当たる「ウイスキーみくじ」第158弾発売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVzlxWGM1akMtRVZUOW1wMnc0bG5MNkJiNlRmQUJMc0xiUENfR0o2Nm0xQmtaei02UmxjRWQ3amx4Q2tTUldfbUhtTFBxRzJMRnAwbU9CTVdLQW9PZmEzNERYN1hPMFhrNUpDVktTUVZQT0Y3aTNXWGJvN0FnXzlONFNB0gGHAUFVX3lxTE9PVnVKbEFwVmxHdnJteXBXTGhWUlNIaGlBYWZrNHpCR2NWVVVkMTVtNVN1T3dnMXZmMGQ5NFZGVXBaWUx4YWxNUHVCUGFqTXlJV01nWUx6OURmRHdBeGFGSlI0X2pWX000dHpqT3pHSnhFU2U1MzNPSnRoSGxQRUVrUUJxR1hyOA?oc=5": {
+   "title": "「METAL ROBOT ガンダムダブルエックス」が抽選販売！リフレクター、サテライトキャノンなどの展開を全て差し替えなしで再現",
+   "category": "お酒",
+   "source": "Googleニュース「日本酒 抽選販売」",
+   "first_seen": "2026-09-27T00:07:14+09:00",
+   "last_seen": "2026-09-27"
+  }
+ }
+}
