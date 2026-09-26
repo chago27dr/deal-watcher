@@ -8,6 +8,7 @@
   "Googleニュース「デュエル・マスターズ OR デュエマ 抽選 OR 予約」",
   "Googleニュース「トヨタ OR 日産 OR ホンダ OR マツダ OR スバル 抽選販売」",
   "Googleニュース「ドラゴンボール カードゲーム 抽選 OR 予約」",
+  "Googleニュース「プレバン カード 抽選」",
   "Googleニュース「ポケカ 抽選」",
   "Googleニュース「ポケモンセンターオンライン 抽選」",
   "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」",
@@ -1561,6 +1562,27 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ドラゴンボール カードゲーム 抽選 OR 予約」",
    "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yeU1RRDU4Zl9QQTY3ZEZmWjJTWDZRcF9udTFQVlBRYW9iUm5TYVdEMnBYOVhsaDVzUi1KbFlyQTZZV2I5UkV6bFZiZ3k?oc=5": {
+   "title": "8/4発売｜Kobe Bryant × Nike Air Force 1 Low Protro \"White and Safety Orange\"｜抽選/販売/定価情報",
+   "category": "時計",
+   "source": "Googleニュース「腕時計 抽選販売」",
+   "first_seen": "2026-09-27T02:18:10+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nTmJpMVR4MVN4MUxuRmZJV2p5R0hLQnlDYzJuREFpUHRkR3JDbmxxWHFSRkgxbVZhVEpkemFOOGdycTExVkFOYjJ3Rks?oc=5": {
+   "title": "3/15・3/17発売｜Nike Kobe 6 Protro \"Dodgers\"｜抽選/販売/定価情報",
+   "category": "時計",
+   "source": "Googleニュース「腕時計 抽選販売」",
+   "first_seen": "2026-09-27T02:18:10+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVzVwNjY2dkdrdnl3RlRrUk91UzhabjBLa2VCSHZueWdZd1F4U0hZVXZMMTB0YVRQdFhmSjRHemItMk9tNzA2Y1Jidm9CZjJjTzdnandDbVRyV3NSWGdWc29jdnNjOHlTZkhMZm5Na0sxNkxtdEpqZ2Q0dnI1ZjlNQzJqLTV0cmRVSXpyMHVR?oc=5": {
+   "title": "【国内限定2台！】BMW「M 1000 RR Limited Edition Isle of Man TT」が900万円で抽選販売開始！ (Webikeプラス)",
+   "category": "車",
+   "source": "Googleニュース「限定車 抽選販売」",
+   "first_seen": "2026-09-27T02:18:10+09:00",
    "last_seen": "2026-09-27"
   }
  }
