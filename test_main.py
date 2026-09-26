@@ -153,6 +153,12 @@ class RssSourceTests(unittest.TestCase):
         matched = [i for i in items if src.accepts(i.title)]
         self.assertEqual(len(matched), 2)  # 「ただの新商品ニュース」は除外される
 
+    def test_exclude_beats_include(self):
+        src = RssSource(name="rss", category="時計", url="https://feed.example/", include=("抽選",), exclude=("当たる",))
+        self.assertTrue(src.accepts("限定モデルの抽選販売を開始"))
+        self.assertFalse(src.accepts("抽選で腕時計が当たるキャンペーン"))  # 懸賞は商品の抽選販売ではない
+        self.assertFalse(src.accepts("新作を発売"))
+
     def test_max_age_drops_old_entries(self):
         src = RssSource(name="rss", category="お酒", url="https://feed.example/", max_age_days=30)
         with mock.patch.object(main, "datetime", wraps=datetime) as fake:
@@ -198,6 +204,27 @@ class HtmlListSourceTests(unittest.TestCase):
     def test_empty_result_is_an_error(self):
         with self.assertRaises(ValueError):
             self.make().fetch(FakeHttp("<html><body>構造が変わった</body></html>".encode("utf-8")))
+
+    def test_pokemon_center_online_notice_list(self):
+        src = next(s for s in main.SOURCES if s.name == "ポケモンセンターオンライン お知らせ")
+        html = """<html><body><ul class="noticeUl">
+        <li><a href="/news/?id=20260904"><span class="time">2026年09月04日</span><span class="ttl">30周年記念商品の追加抽選販売について</span></a></li>
+        <li><a href="/news/?id=20260915_2"><span class="time">2026年09月15日</span><span class="ttl">営業と発送スケジュールについて</span></a></li>
+        <li><a href="/product/123">商品ページ(お知らせではない)</a></li>
+        </ul></body></html>""".encode("utf-8")
+        items = [i for i in src.fetch(FakeHttp(html)) if src.accepts(i.title)]
+        self.assertEqual([(i.title, i.url) for i in items],
+                         [("30周年記念商品の追加抽選販売について", "https://www.pokemoncenter-online.com/news/?id=20260904")])
+
+    def test_yugioh_news_list_strips_time(self):
+        src = next(s for s in main.SOURCES if s.name == "遊戯王OCG公式 ニュース")
+        html = """<html><body><section class="news-list"><ul class="news-list">
+        <li><a class="news" href="//www.yugioh-card.com/japan/products/x/"><time>2026.09.20</time>限定パックの予約受付について</a></li>
+        <li><a class="news" href="/japan/event/a/"><time>2026.09.19</time>大会結果</a></li>
+        </ul></section></body></html>""".encode("utf-8")
+        items = [i for i in src.fetch(FakeHttp(html)) if src.accepts(i.title)]
+        self.assertEqual([(i.title, i.url) for i in items],
+                         [("限定パックの予約受付について", "https://www.yugioh-card.com/japan/products/x/")])
 
 
 def nike_page(threads: dict, products: dict, *, double_encoded=True) -> bytes:
@@ -362,6 +389,29 @@ class RunTests(unittest.TestCase):
         code, post = self.run_main([self.a, self.b])  # 送信済みなので二重通知しない
         self.assertEqual(post.call_count, 0)
 
+    def test_added_source_is_baselined_even_when_history_exists(self):
+        self.run_main([self.a])  # 既存の情報源 "stub" で初回(既読登録)
+        # 古い形式の履歴(sources キーなし)からでも、見たことのある情報源を復元できること
+        data = json.loads(self.history.read_text(encoding="utf-8"))
+        del data["sources"]
+        self.history.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+        added = StubSource([Item("新ソースの古い記事 抽選", "https://n.com/old", "時計", "新しい情報源")])
+        added.name = "新しい情報源"
+        with mock.patch.object(requests, "post", return_value=FakeResponse(status_code=204)) as post:
+            code = main.run(make_args(self.history), sources=[StubSource([self.a, self.b]), added])
+        self.assertEqual((code, post.call_count), (0, 2))
+        first, second = (c.kwargs["json"] for c in post.call_args_list)
+        self.assertIn("情報源を1件追加しました", first["content"])  # 新ソース分は通知せず既読登録
+        self.assertEqual([e["title"] for e in second["embeds"]], [self.b.title])  # 既存ソースの新着は通常どおり
+        self.assertIn("新しい情報源", History(self.history).sources)
+
+        new_item = Item("新ソースの新着 抽選", "https://n.com/new", "時計", "新しい情報源")
+        added.items.append(new_item)
+        with mock.patch.object(requests, "post", return_value=FakeResponse(status_code=204)) as post:
+            main.run(make_args(self.history), sources=[StubSource([self.a, self.b]), added])
+        self.assertEqual([e["title"] for e in post.call_args.kwargs["json"]["embeds"]], [new_item.title])
+
     def test_dry_run_sends_nothing_and_writes_nothing(self):
         code, post = self.run_main([self.a], dry_run=True, no_baseline=True)
         self.assertEqual((code, post.call_count), (0, 0))
@@ -433,6 +483,10 @@ class SourcesConfigTests(unittest.TestCase):
         for s in main.SOURCES:
             self.assertTrue(s.url.startswith("https://"), s.name)
             self.assertIn(s.category, main.CATEGORY_COLORS)
+        self.assertEqual(
+            {s.category for s in main.SOURCES},
+            {main.CATEGORY_CARD, main.CATEGORY_SNEAKER, main.CATEGORY_LIQUOR, main.CATEGORY_WATCH, main.CATEGORY_CAR},
+        )
 
     def test_google_news_url_is_encoded(self):
         url = main.google_news_url("ポケカ 抽選")

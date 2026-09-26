@@ -19,7 +19,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20  # 通常は2分弱。情報源が20件あるので、複数が遅延・再試行しても収まる余裕を持たせる
     steps:
       - uses: actions/checkout@v7
 

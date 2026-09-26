@@ -59,16 +59,23 @@ SOURCE_FAIL_ALERT_STREAK = 6  # 同じ情報源がこの回数だけ連続で失
 CATEGORY_CARD = "トレーディングカード"
 CATEGORY_SNEAKER = "スニーカー"
 CATEGORY_LIQUOR = "お酒"
+CATEGORY_WATCH = "時計"
+CATEGORY_CAR = "車"
 CATEGORY_COLORS = {
     CATEGORY_CARD: 0xF1C40F,
     CATEGORY_SNEAKER: 0x3498DB,
     CATEGORY_LIQUOR: 0xE67E22,
+    CATEGORY_WATCH: 0x9B59B6,
+    CATEGORY_CAR: 0xE74C3C,
 }
 DEFAULT_COLOR = 0x95A5A6
 
 # タイトルにこのどれかが含まれるものだけを通す(情報源ごとに include= で指定する)
 LOTTERY_KEYWORDS = ("抽選", "予約", "応募", "受付", "先着", "再販")
 RELEASE_KEYWORDS = LOTTERY_KEYWORDS + ("発売", "販売")
+# 「抽選で当たる」系の懸賞・プレゼント企画は、商品の抽選販売ではないので除外する(exclude= で指定する)
+PRIZE_KEYWORDS = ("当たる", "プレゼント", "懸賞", "景品", "チケット")
+CAMPAIGN_KEYWORDS = PRIZE_KEYWORDS + ("キャンペーン",)
 
 # 同じページでもURLの末尾だけが違う、を同一扱いにするため取り除くパラメータ
 TRACKING_PARAMS = {"fbclid", "gclid", "yclid", "mc_cid", "mc_eid", "igshid"}
@@ -157,6 +164,7 @@ class History:
         self.existed = path.exists()
         self.items: dict[str, dict] = {}
         self.health: dict[str, int] = {}  # 情報源ごとの「連続失敗回数」(失敗中のものだけ)
+        self.sources: set[str] = set()  # 一度でも巡回した情報源の名前(初めての情報源は既読登録だけにするため)
         self._titles: set[str] = set()
         self._saved_text: str | None = None
         if self.existed:
@@ -168,7 +176,11 @@ class History:
             data = json.loads(self.path.read_text(encoding="utf-8"))
             self.items = dict(data.get("items", {}))
             self.health = {k: int(v) for k, v in data.get("source_health", {}).items()}
-        except (OSError, ValueError, AttributeError, TypeError) as exc:
+            if "sources" in data:
+                self.sources = {str(name) for name in data["sources"]}
+            else:  # 古い形式の履歴: 記録済みの項目から「見たことのある情報源」を復元する
+                self.sources = {str(e["source"]) for e in self.items.values() if e.get("source")}
+        except (OSError, ValueError, AttributeError, TypeError, KeyError) as exc:
             # 黙って空扱いにすると、過去分が全部「新着」になって大量通知されてしまう
             raise HistoryError(f"{self.path.name} を読み込めません。内容を確認してください: {exc}") from exc
         self._rebuild_titles()
@@ -177,7 +189,7 @@ class History:
         self._titles = {t for t in (normalize_title(e.get("title", "")) for e in self.items.values()) if t}
 
     def _dump(self) -> str:
-        data = {"version": 1, "source_health": self.health, "items": self.items}
+        data = {"version": 1, "sources": sorted(self.sources), "source_health": self.health, "items": self.items}
         return json.dumps(data, ensure_ascii=False, indent=1) + "\n"
 
     def seen(self, item: Item) -> bool:
@@ -313,15 +325,23 @@ class Source:
     category: str
     url: str
     include: tuple[str, ...] = ()  # タイトルにどれか含まれるものだけ通す(空なら全部通す)
+    exclude: tuple[str, ...] = ()  # タイトルにどれか含まれるものは通さない(include より優先)
 
     def fetch(self, http: Http) -> list[Item]:
         raise NotImplementedError
 
     def accepts(self, title: str) -> bool:
+        text = _fold(title)
+        if any(_fold(keyword) in text for keyword in self.exclude):
+            return False
         if not self.include:
             return True
-        text = unicodedata.normalize("NFKC", title).lower()
-        return any(keyword.lower() in text for keyword in self.include)
+        return any(_fold(keyword) in text for keyword in self.include)
+
+
+def _fold(text: str) -> str:
+    """全角・半角や大文字・小文字の違いを無視して比べるための正規化(タイトルにもキーワードにも同じものを使う)。"""
+    return unicodedata.normalize("NFKC", text).lower()
 
 
 @dataclass(kw_only=True)
@@ -464,6 +484,13 @@ def google_news_url(query: str) -> str:
     return "https://news.google.com/rss/search?" + urlencode(params)
 
 
+def news_source(query: str, category: str, *, include=LOTTERY_KEYWORDS, exclude=PRIZE_KEYWORDS) -> RssSource:
+    """Googleニュース検索を情報源にする(検索語は `OR` でつなげられる)。"""
+    return RssSource(
+        name=f"Googleニュース「{query}」", category=category, url=google_news_url(query), include=include, exclude=exclude
+    )
+
+
 SOURCES: list[Source] = [
     # --- トレーディングカード ---
     HtmlListSource(
@@ -475,44 +502,49 @@ SOURCES: list[Source] = [
         strip_selectors=(".Calendar_Label", ".Date"),
         include=RELEASE_KEYWORDS,
     ),
-    RssSource(
-        name="Googleニュース「ポケカ 抽選」",
+    # ポケモンセンターオンラインは、トップページの「お知らせ」欄に抽選販売の案内が載る
+    # (お知らせ専用の一覧ページは無く、robots.txt は全ページ許可)
+    HtmlListSource(
+        name="ポケモンセンターオンライン お知らせ",
         category=CATEGORY_CARD,
-        url=google_news_url("ポケカ 抽選"),
-        include=LOTTERY_KEYWORDS,
+        url="https://www.pokemoncenter-online.com/",
+        item_selector='ul.noticeUl a[href^="/news/?id="]',
+        title_selector=".ttl",
+        include=RELEASE_KEYWORDS,
     ),
-    # ポケモンセンターオンライン本体はボット対策で取得を拒否されるため、ニュース経由で拾う
-    RssSource(
-        name="Googleニュース「ポケモンセンターオンライン 抽選」",
+    HtmlListSource(
+        name="遊戯王OCG公式 ニュース",
         category=CATEGORY_CARD,
-        url=google_news_url("ポケモンセンターオンライン 抽選"),
-        include=LOTTERY_KEYWORDS,
+        url="https://www.yugioh-card.com/japan/news/",
+        item_selector="section.news-list a.news",
+        strip_selectors=("time",),
+        include=RELEASE_KEYWORDS,
     ),
+    news_source("ポケカ 抽選", CATEGORY_CARD),
+    news_source("ポケモンセンターオンライン 抽選", CATEGORY_CARD),
+    news_source("ワンピースカード 抽選 OR 予約", CATEGORY_CARD),
+    news_source("遊戯王 抽選 OR 予約", CATEGORY_CARD),
+    news_source("デュエル・マスターズ OR デュエマ 抽選 OR 予約", CATEGORY_CARD),
+    news_source("ドラゴンボール カードゲーム 抽選 OR 予約", CATEGORY_CARD),
+    news_source("マジック・ザ・ギャザリング OR MTG 抽選 OR 予約", CATEGORY_CARD),
     # --- スニーカー・ファッション ---
     NikeSnkrsSource(
         name="Nike SNKRS ローンチ",
         category=CATEGORY_SNEAKER,
         url="https://www.nike.com/jp/launch",
     ),
-    RssSource(
-        name="Googleニュース「スニーカー 抽選」",
-        category=CATEGORY_SNEAKER,
-        url=google_news_url("スニーカー 抽選"),
-        include=RELEASE_KEYWORDS,
-    ),
+    news_source("スニーカー 抽選", CATEGORY_SNEAKER, include=RELEASE_KEYWORDS),
     # --- お酒(ウイスキー・プレミア日本酒) ---
-    RssSource(
-        name="Googleニュース「ウイスキー 抽選販売」",
-        category=CATEGORY_LIQUOR,
-        url=google_news_url("ウイスキー 抽選販売"),
-        include=LOTTERY_KEYWORDS,
-    ),
-    RssSource(
-        name="Googleニュース「日本酒 抽選販売」",
-        category=CATEGORY_LIQUOR,
-        url=google_news_url("日本酒 抽選販売"),
-        include=LOTTERY_KEYWORDS,
-    ),
+    news_source("ウイスキー 抽選販売", CATEGORY_LIQUOR),
+    news_source("日本酒 抽選販売", CATEGORY_LIQUOR),
+    # --- 時計(限定モデルの抽選販売) ---
+    news_source("腕時計 抽選販売", CATEGORY_WATCH, exclude=CAMPAIGN_KEYWORDS),
+    news_source("ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定", CATEGORY_WATCH, include=RELEASE_KEYWORDS, exclude=CAMPAIGN_KEYWORDS),
+    news_source("G-SHOCK OR カシオ 限定 抽選 OR 発売", CATEGORY_WATCH, include=RELEASE_KEYWORDS, exclude=CAMPAIGN_KEYWORDS),
+    # --- 車(限定車・抽選販売車) ---
+    news_source("限定車 抽選販売", CATEGORY_CAR, exclude=CAMPAIGN_KEYWORDS),
+    news_source("トヨタ OR 日産 OR ホンダ OR マツダ OR スバル 抽選販売", CATEGORY_CAR, exclude=CAMPAIGN_KEYWORDS),
+    news_source("GRヤリス OR GRカローラ OR ランドクルーザー OR GT-R OR フェアレディZ 抽選", CATEGORY_CAR, exclude=CAMPAIGN_KEYWORDS),
 ]
 
 
@@ -683,7 +715,11 @@ def run(args: argparse.Namespace, sources: list[Source] | None = None) -> int:
         return 1
 
     # 2) 新着(まだ通知していないもの)だけを選ぶ。今回の取得分どうしの重複も除く
+    #    後から追加された情報源(履歴に名前がない)の分は、通知せず既読登録だけにする
+    fetched_names = {s.name for s in sources if s.name not in failed}
+    new_source_names = [] if args.no_baseline else sorted(fetched_names - history.sources)
     fresh: list[Item] = []
+    fresh_from_new_sources: list[Item] = []
     batch_keys: set[str] = set()
     for item in collected:
         if history.seen(item):
@@ -693,16 +729,19 @@ def run(args: argparse.Namespace, sources: list[Source] | None = None) -> int:
         if keys & batch_keys:
             continue
         batch_keys |= keys
-        fresh.append(item)
+        (fresh_from_new_sources if item.source in new_source_names else fresh).append(item)
     log.info("新着: %d件", len(fresh))
 
     status = 0
     persist = history.existed  # 履歴ファイルを新しく作ってよいか(初回の開始通知が成功したときだけ true)
     try:
         if not history.existed and not args.no_baseline:
-            _register_baseline(history, fresh, notifier, now, args.dry_run)
+            _register_baseline(history, fresh + fresh_from_new_sources, notifier, now, args.dry_run)
+            history.sources |= fetched_names
             persist = True  # 送信に失敗すると上で例外になり、ここには来ない
         else:
+            if new_source_names:
+                _register_new_sources(history, new_source_names, fresh_from_new_sources, notifier, now, args.dry_run)
             status = _notify_new_items(history, fresh, notifier, now, args.dry_run)
         if alerts:
             _send_health_alert(alerts, notifier, args.dry_run)
@@ -732,6 +771,23 @@ def _register_baseline(history: History, fresh: list[Item], notifier: DiscordNot
     for item in fresh:
         history.add(item, now)
     log.info("初回実行: %d件を既読登録しました", len(fresh))
+
+
+def _register_new_sources(
+    history: History, names: list[str], items: list[Item], notifier: DiscordNotifier, now: datetime, dry_run: bool
+) -> None:
+    """後から追加した情報源も、初回は「既読登録だけ」にする(その時点の掲載分を一気に通知しないため)。"""
+    lines = "\n".join(f"・{name}" for name in names)
+    message = f"🆕 情報源を{len(names)}件追加しました。現在掲載中の{len(items)}件は通知せず既読にしました。\n{lines}"
+    if dry_run:
+        log.info("[DRY-RUN] 新しい情報源 %d件の %d件を通知せず既読登録する動きになります", len(names), len(items))
+        print(json.dumps(text_payload(message), ensure_ascii=False, indent=2))
+        return
+    notifier.send(text_payload(message))  # 送れなかったときは記録せず、次回もう一度「初回」として扱う
+    for item in items:
+        history.add(item, now)
+    history.sources |= set(names)
+    log.info("新しい情報源 %d件: %d件を既読登録しました", len(names), len(items))
 
 
 def _notify_new_items(history: History, fresh: list[Item], notifier: DiscordNotifier, now: datetime, dry_run: bool) -> int:
