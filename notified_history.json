@@ -13,16 +13,22 @@
   "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」",
   "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」",
   "Googleニュース「ワンピースカード 抽選 OR 予約」",
+  "Googleニュース「ワンピースカード 抽選」",
   "Googleニュース「日本酒 抽選販売」",
   "Googleニュース「腕時計 抽選販売」",
   "Googleニュース「遊戯王 抽選 OR 予約」",
+  "Googleニュース「遊戯王 抽選」",
   "Googleニュース「限定車 抽選販売」",
   "Nike SNKRS ローンチ",
+  "ゲオ お知らせ(抽選販売)",
   "ポケモンカード公式 お知らせ",
   "ポケモンセンターオンライン お知らせ",
   "遊戯王OCG公式 ニュース"
  ],
- "source_health": {},
+ "source_health": {
+  "プレミアムバンダイ カード抽選": 1,
+  "atmos 抽選一覧": 1
+ },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
    "title": "9月16日（水）に発売のデッキシールドを一挙紹介！",
@@ -1492,6 +1498,69 @@
    "category": "時計",
    "source": "Googleニュース「腕時計 抽選販売」",
    "first_seen": "2026-09-27T01:21:37+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://geo-online.co.jp/news/783": {
+   "title": "10月16日(金)発売『ポケモンカードゲーム MEGA「30th CELEBRATION カードセット」（9種セット）』抽選販売受付のお知らせ",
+   "category": "トレーディングカード",
+   "source": "ゲオ お知らせ(抽選販売)",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://geo-online.co.jp/news/784": {
+   "title": "10月31日(土)発売「ONE PIECEカードゲーム エクストラブースター ONE PIECE Heroines Edition vol.2」抽選販売受付のお知らせ",
+   "category": "トレーディングカード",
+   "source": "ゲオ お知らせ(抽選販売)",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://geo-online.co.jp/news/785": {
+   "title": "「ポケモンカードゲーム 」「ONE PIECEカードゲーム』再販商品 抽選販売受付のお知らせ",
+   "category": "トレーディングカード",
+   "source": "ゲオ お知らせ(抽選販売)",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://geo-online.co.jp/news/732": {
+   "title": "「抽選販売」よくあるお問い合わせについて",
+   "category": "トレーディングカード",
+   "source": "ゲオ お知らせ(抽選販売)",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mVTdBa1NvdERQQWFYcmpGQTZSaDZOalhhaTdJQzJscFByMWlSYXJSdGd2alN5amMtTVZ6dldoZ2FIbHBiY05fNVA4eE5GUkZKaUw5R0hDSUtwQ3lDSHo1X1RRejRRMWtUM1h2YlhwRHpSR2RocVBj?oc=5": {
+   "title": "「METAL ROBOT ガンダムダブルエックス」が抽選販売！リフレクター、サテライトキャノンなどの展開を全て差し替えなしで再現 4枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ワンピースカード 抽選」",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE01WE9EQnpCQjYwMGt0NjJ3em1sdWxURUFyTGtiNUE5bmdEN1AyUTJKaXlHRHFjd3RyQUxrajRncFMtd2s4SEk2Z1UwdUw?oc=5": {
+   "title": "4/18発売｜eYe JUNYA WATANABE MAN × Levi’s® × BerBerjin collection｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ワンピースカード 抽選」",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YTC0xdzAxRk9PVkN0ZGFWc3BlVEd3bHktLVpuMlBjNzYwOFpMUDU0b2g1cHdHenlUdXRqV1dkZVVrZnpFNjdsS2hsd0U?oc=5": {
+   "title": "8/8発売｜Nike Air Max 95 OG \"Cool Grey/Blue Spark\"｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「遊戯王 抽選」",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE16Y1BNa2hNSWxFV2JrY1hqWVE0WEFYZXphTFVIQXJSWjJvUjNvNV9xUWRsWFE5RklTY3BnWDJYaUVWaUhMdmI1ZnRfdWg?oc=5": {
+   "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T02:14:00+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQWnl2YTFERUZhZWw1Z0RCOGRuWGkyVVl1cEo1UFM2N2QwRnA2QkYySUlWVi11cWJ3SHl6UHNNZWtXelFSaDg5WUNxZ1o?oc=5": {
+   "title": "【ワンピースカード】新たなる皇帝の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【2024/8/31発売】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ドラゴンボール カードゲーム 抽選 OR 予約」",
+   "first_seen": "2026-09-27T02:14:00+09:00",
    "last_seen": "2026-09-27"
   }
  }
