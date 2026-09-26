@@ -28,21 +28,7 @@
  ],
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
-  "atmos 抽選一覧": 1,
-  "Googleニュース「プレバン カード 抽選」": 1,
-  "Googleニュース「ポケカ 抽選」": 1,
-  "Googleニュース「ワンピースカード 抽選」": 1,
-  "Googleニュース「遊戯王 抽選」": 1,
-  "Googleニュース「ドラゴンボール カードゲーム 抽選 OR 予約」": 1,
-  "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」": 1,
-  "Googleニュース「ウイスキー 抽選販売」": 1,
-  "Googleニュース「日本酒 抽選販売」": 1,
-  "Googleニュース「腕時計 抽選販売」": 1,
-  "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」": 1,
-  "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」": 1,
-  "Googleニュース「限定車 抽選販売」": 1,
-  "Googleニュース「トヨタ OR 日産 OR ホンダ OR マツダ OR スバル 抽選販売」": 1,
-  "Googleニュース「GRヤリス OR GRカローラ OR ランドクルーザー OR GT-R OR フェアレディZ 抽選」": 1
+  "atmos 抽選一覧": 1
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -1597,6 +1583,13 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-09-27T02:18:10+09:00",
+   "last_seen": "2026-09-27"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE41dTZsMEh2MTB0cm9ydi1KdEpKNEdEYXdLSHFYLXNueXBweUxWMlRYRFFYTWpRZm9uUmF0YndjbXVSeGU1aERBRF81RjU?oc=5": {
+   "title": "8/20〜抽選｜Levi's® Vintage Clothing 1937 501® Jeans Organic \"Rigid\"｜抽選/販売/定価情報",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-27T02:46:02+09:00",
    "last_seen": "2026-09-27"
   }
  }
