@@ -78,6 +78,22 @@ PRIZE_KEYWORDS = ("当たる", "プレゼント", "懸賞", "景品", "チケッ
 CAMPAIGN_KEYWORDS = PRIZE_KEYWORDS + ("キャンペーン",)
 # 実際の通知で目立った雑音(コンビニの腕時計、自治体のマンホール抽選など)。時計・車のニュース検索で除外する
 NOISE_KEYWORDS = CAMPAIGN_KEYWORDS + ("ファミマ", "ファミリーマート", "コンビニ", "マンホール", "ガラポン", "ガンダム", "プラモ")
+# Googleニュースの検索は語のANDが緩く、無関係な記事が紛れ込むことがある。実際に「腕時計 抽選販売」等で
+# スニーカーダンクのスニーカー定価情報や、無関係なガンプラ・フィギュアの紹介記事が大量に混ざっていたため、
+# news_source() の全クエリで共通に除外する(カード・時計・車のどの検索にも本来出てほしくない記事)
+GENERIC_NEWS_NOISE = (
+    "抽選/販売/定価情報",  # スニーカーダンクのスニーカー・アパレル定価チェック記事の定型フォーマット
+    "抽選/定価/販売店舗まとめ",  # 同じくスニーカーダンクの、発売済みカードの相場まとめ記事(新規の抽選案内ではない)
+    "スニーカーダンク",
+    "スニダンで購入可",
+    "snkrdunk",
+    "当たりランキング",  # 発売済み商品の当たりカード買取相場まとめ(抽選案内ではない)
+    "厳選フィギュア",
+    "大人気フィギュア",
+    "フィギュア",  # ガンプラ・DB/遊戯王フィギュアの抽選販売はカード・時計・車どのカテゴリでも対象外
+    "ガンダム",
+    "プラモ",
+)
 
 # 同じページでもURLの末尾だけが違う、を同一扱いにするため取り除くパラメータ
 TRACKING_PARAMS = {"fbclid", "gclid", "yclid", "mc_cid", "mc_eid", "igshid"}
@@ -489,7 +505,11 @@ def google_news_url(query: str) -> str:
 def news_source(query: str, category: str, *, include=LOTTERY_KEYWORDS, exclude=PRIZE_KEYWORDS) -> RssSource:
     """Googleニュース検索を情報源にする(検索語は `OR` でつなげられる)。"""
     return RssSource(
-        name=f"Googleニュース「{query}」", category=category, url=google_news_url(query), include=include, exclude=exclude
+        name=f"Googleニュース「{query}」",
+        category=category,
+        url=google_news_url(query),
+        include=include,
+        exclude=tuple(exclude) + GENERIC_NEWS_NOISE,
     )
 
 
