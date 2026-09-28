@@ -422,6 +422,37 @@ class HtmlListSource(Source):
         return list(items.values())
 
 
+@dataclass(kw_only=True)
+class JsonLdListSource(Source):
+    """schema.org の ItemList(JSON-LD)で商品一覧を載せているページ。
+
+    店舗横断の抽選まとめサイトなど、見た目のCSS構造より構造化データの方が壊れにくい場合に使う。
+    """
+
+    def fetch(self, http: Http) -> list[Item]:
+        resp = http.get(self.url, check_robots=True)
+        soup = BeautifulSoup(resp.content, "html.parser")
+        items: dict[str, Item] = {}
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                data = json.loads(script.string or "")
+            except ValueError:
+                continue
+            if not isinstance(data, dict) or data.get("@type") != "ItemList":
+                continue
+            for entry in data.get("itemListElement", []):
+                title = clean_text(entry.get("name", ""))
+                href = entry.get("url", "")
+                if not title or not href:
+                    continue
+                url = urljoin(self.url, href)
+                if url not in items:
+                    items[url] = Item(title, url, self.category, self.name)
+        if not items:
+            raise ValueError("記事が1件も見つかりません(サイトの構造が変わった可能性があります)")
+        return list(items.values())
+
+
 NIKE_METHOD_LABELS = {"DRAW": "抽選(DRAW)", "LINE": "並び(LINE)"}
 
 
@@ -557,6 +588,22 @@ SOURCES: list[Source] = [
         item_selector='section ul li a[href^="/news/"]',
         title_selector=".infoTitle",
         include=("抽選",),
+    ),
+    # トレカ抽選ナビ(店舗横断の抽選・予約まとめサイト)の地域別ページ。福島・栃木の個別カードショップ
+    # (カードゲームショップ りらい、Duel Stade Ganryu 下野店 など)の抽選もここでまとめて拾える。
+    # ページはJSON-LD(構造化データ)で一覧を載せており、robots.txtも全許可(curl等の遮断なし)。
+    # 応募が締切済みで購入期間だけ残っている商品が混ざることがあるので、応募期限は必ずリンク先で確認する
+    JsonLdListSource(
+        name="トレカ抽選ナビ(福島県)",
+        category=CATEGORY_CARD,
+        url="https://toreca-chusen.com/a/fukushima/",
+        exclude=("フィギュア", "ガンダム", "プラモ"),
+    ),
+    JsonLdListSource(
+        name="トレカ抽選ナビ(栃木県)",
+        category=CATEGORY_CARD,
+        url="https://toreca-chusen.com/a/tochigi/",
+        exclude=("フィギュア", "ガンダム", "プラモ"),
     ),
     news_source("ポケカ 抽選", CATEGORY_CARD),
     news_source("ワンピースカード 抽選", CATEGORY_CARD),

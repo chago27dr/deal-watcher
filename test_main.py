@@ -24,6 +24,7 @@ from main import (
     HistoryError,
     HtmlListSource,
     Item,
+    JsonLdListSource,
     JST,
     RssSource,
     Source,
@@ -240,6 +241,58 @@ class HtmlListSourceTests(unittest.TestCase):
         items = [i for i in src.fetch(FakeHttp(html)) if src.accepts(i.title)]
         self.assertEqual([(i.title, i.url) for i in items],
                          [("限定パックの予約受付について", "https://www.yugioh-card.com/japan/products/x/")])
+
+
+class JsonLdListSourceTests(unittest.TestCase):
+    def make(self, exclude=("ガンダム",)):
+        return JsonLdListSource(
+            name="jsonld", category="トレーディングカード", url="https://site.example/a/x/", exclude=exclude,
+        )
+
+    def test_reads_itemlist_and_ignores_other_jsonld_blocks(self):
+        page = (
+            '<html><head><meta charset="utf-8">'
+            '<script type="application/ld+json">{"@type":"BreadcrumbList","itemListElement":'
+            '[{"name":"無視されるべき","url":"/z/"}]}</script>'
+            '<script type="application/ld+json">{"@type":"ItemList","itemListElement":['
+            '{"@type":"ListItem","position":1,"name":"店A 抽選商品","url":"/c/a/"},'
+            '{"@type":"ListItem","position":2,"name":"店B ガンダム抽選","url":"/c/b/"}'
+            ']}</script></head><body></body></html>'
+        ).encode("utf-8")
+        src = self.make()
+        items = [i for i in src.fetch(FakeHttp(page)) if src.accepts(i.title)]
+        self.assertEqual([(i.title, i.url) for i in items], [("店A 抽選商品", "https://site.example/c/a/")])
+
+    def test_empty_result_is_an_error(self):
+        with self.assertRaises(ValueError):
+            self.make().fetch(FakeHttp("<html><body>構造が変わった</body></html>".encode("utf-8")))
+
+    def test_toreca_chusen_area_pages(self):
+        cases = {
+            "トレカ抽選ナビ(福島県)": (
+                '{"@type":"ItemList","itemListElement":['
+                '{"@type":"ListItem","position":1,"name":"カードゲームショップ りらい ONE PIECEカードゲーム BOX",'
+                '"url":"https://toreca-chusen.com/c/litaikai-rirai/one-piece-op17/"},'
+                '{"@type":"ListItem","position":2,"name":"あるお店 ガンダムプラモ抽選","url":"https://toreca-chusen.com/c/x/gundam/"}'
+                ']}',
+                [("カードゲームショップ りらい ONE PIECEカードゲーム BOX", "https://toreca-chusen.com/c/litaikai-rirai/one-piece-op17/")],
+            ),
+            "トレカ抽選ナビ(栃木県)": (
+                '{"@type":"ItemList","itemListElement":['
+                '{"@type":"ListItem","position":1,"name":"Duel Stade Ganryu 下野店 ポケモンカードゲーム BOX",'
+                '"url":"https://toreca-chusen.com/c/ganryu-shimotsuke/mega-30th-celebration-card-set/"}'
+                ']}',
+                [("Duel Stade Ganryu 下野店 ポケモンカードゲーム BOX", "https://toreca-chusen.com/c/ganryu-shimotsuke/mega-30th-celebration-card-set/")],
+            ),
+        }
+        for name, (jsonld, expected) in cases.items():
+            src = next(s for s in main.SOURCES if s.name == name)
+            page = (
+                f'<html><head><meta charset="utf-8"><script type="application/ld+json">{jsonld}</script>'
+                "</head><body></body></html>"
+            ).encode("utf-8")
+            items = [i for i in src.fetch(FakeHttp(page)) if src.accepts(i.title)]
+            self.assertEqual([(i.title, i.url) for i in items], expected, name)
 
 
 def nike_page(threads: dict, products: dict, *, double_encoded=True) -> bytes:
