@@ -605,6 +605,18 @@ SOURCES: list[Source] = [
         url="https://toreca-chusen.com/a/tochigi/",
         exclude=("フィギュア", "ガンダム", "プラモ"),
     ),
+    JsonLdListSource(
+        name="トレカ抽選ナビ(埼玉県)",
+        category=CATEGORY_CARD,
+        url="https://toreca-chusen.com/a/saitama/",
+        exclude=("フィギュア", "ガンダム", "プラモ"),
+    ),
+    JsonLdListSource(
+        name="トレカ抽選ナビ(東京都)",
+        category=CATEGORY_CARD,
+        url="https://toreca-chusen.com/a/tokyo/",
+        exclude=("フィギュア", "ガンダム", "プラモ"),
+    ),
     news_source("ポケカ 抽選", CATEGORY_CARD),
     news_source("ワンピースカード 抽選", CATEGORY_CARD),
     news_source("遊戯王 抽選", CATEGORY_CARD),
