@@ -22,6 +22,10 @@
   "Googleニュース「限定車 抽選販売」",
   "Nike SNKRS ローンチ",
   "ゲオ お知らせ(抽選販売)",
+  "トレカ抽選ナビ(埼玉県)",
+  "トレカ抽選ナビ(東京都)",
+  "トレカ抽選ナビ(栃木県)",
+  "トレカ抽選ナビ(福島県)",
   "ポケモンカード公式 お知らせ",
   "ポケモンセンターオンライン お知らせ",
   "遊戯王OCG公式 ニュース"
@@ -2164,6 +2168,573 @@
    "category": "時計",
    "source": "Googleニュース「腕時計 抽選販売」",
    "first_seen": "2026-09-28T11:22:31+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/litaikai-rirai/one-piece-op17": {
+   "title": "カードゲームショップ りらい ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-aeontown-koriyama/mega-30th-celebration-card-set": {
+   "title": "TSUTAYAイオンタウン郡山店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/toreca-ace/mega-30th-celebration": {
+   "title": "トレカエース ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/toreca-ace/mega-30th-celebration-premium-deck-set": {
+   "title": "トレカエース ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/litaikai-rirai/yugioh-original-artwork-collection": {
+   "title": "カードゲームショップ りらい 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-aeontown-koriyama/yugioh-original-artwork-collection": {
+   "title": "TSUTAYAイオンタウン郡山店 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/litaikai-rirai/mega-30th-celebration": {
+   "title": "カードゲームショップ りらい ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/kids-republic/yugioh-original-artwork-collection": {
+   "title": "キッズリパブリック（イオン） 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-aeontown-koriyama/dbs-fusion-world-fb11": {
+   "title": "TSUTAYAイオンタウン郡山店 ドラゴンボールスーパーカードゲーム フュージョンワールド ブースターパック BRIGHTNESS OF HOPE【FB11】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/kids-republic/mega-30th-celebration": {
+   "title": "キッズリパブリック（イオン） ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(福島県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/ganryu-shimotsuke/mega-30th-celebration-card-set": {
+   "title": "Duel Stade Ganryu 下野店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/wondergoo-kanuma/mega-30th-celebration-card-set": {
+   "title": "WonderGOO 鹿沼店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/bigone-tsutaya-sakura/mega-30th-celebration-card-set": {
+   "title": "ビッグワンTSUTAYAさくら店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tcg-pit/yugioh-original-artwork-collection": {
+   "title": "トレーディングカードピット（アピナ・各店） 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/one-piece-op17": {
+   "title": "イエローサブマリン ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/one-piece-eb03": {
+   "title": "イエローサブマリン ONE PIECEカードゲーム エクストラブースター ONE PIECE Heroines Edition【EB-03】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/fukudaya/mega-30th-celebration": {
+   "title": "福田屋百貨店（FKD） ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/fukudaya/mega-30th-celebration-premium-deck-set": {
+   "title": "福田屋百貨店（FKD） ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tcg-pit/mega-30th-celebration": {
+   "title": "トレーディングカードピット（アピナ・各店） ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tcg-pit/mega-30th-celebration-premium-deck-set": {
+   "title": "トレーディングカードピット（アピナ・各店） ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/bigone-tsutaya-sakura/yugioh-original-artwork-collection": {
+   "title": "ビッグワンTSUTAYAさくら店 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/storm-emeralda": {
+   "title": "イエローサブマリン ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/mega-brave": {
+   "title": "イエローサブマリン ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/mega-symphonia": {
+   "title": "イエローサブマリン ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/mega-30th-celebration": {
+   "title": "イエローサブマリン ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/yellow-submarine/mega-30th-celebration-premium-deck-set": {
+   "title": "イエローサブマリン ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(栃木県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/ganryu-honjo/mega-30th-celebration-card-set": {
+   "title": "Duel Stade Ganryu 本庄店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-kitaurawa/mega-30th-celebration-card-set": {
+   "title": "TSUTAYA17号北浦和店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-minamifuruya/mega-30th-celebration-card-set": {
+   "title": "TSUTAYA 南古谷店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/futaba-toda/mega-30th-celebration-card-set": {
+   "title": "フタバ図書 TSUTAYAトレーディングカード戸田店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cb-kasamo/mega-30th-celebration-card-set": {
+   "title": "カサモ関口商店（カードボックス） ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/hobby-station/storm-emeralda": {
+   "title": "ホビーステーション ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/furuichi-soka/mega-brave": {
+   "title": "古本市場草加店 ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/pokemon-center-store/mega-30th-celebration": {
+   "title": "ポケモンセンター（実店舗） ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/plaisance-toreca/mega-30th-celebration": {
+   "title": "トレカ・ぷれぞんす ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/card-labo/yugioh-original-artwork-collection": {
+   "title": "カードラボ 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/pao/mega-30th-celebration": {
+   "title": "竜星のPAO・カードショップPAO ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/pao/mega-30th-celebration-premium-deck-set": {
+   "title": "竜星のPAO・カードショップPAO ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/kiddyland-lalaport-fujimi/mega-starter-set-ex-eevee-ex": {
+   "title": "キデイランド ららぽーと富士見店 ポケモンカードゲーム MEGA スターターセットex イーブイex",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cb-kasamo/mega-30th-celebration": {
+   "title": "カサモ関口商店（カードボックス） ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cb-kasamo/mega-30th-celebration-premium-deck-set": {
+   "title": "カサモ関口商店（カードボックス） ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/furuichi/one-piece-op17": {
+   "title": "古本市場（ふるいち） ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(埼玉県)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/fullcomp/mega-30th-celebration": {
+   "title": "フルコンプ ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/fullcomp/mega-30th-celebration-premium-deck-set": {
+   "title": "フルコンプ ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/ganryu-akihabara/mega-30th-celebration-card-set": {
+   "title": "Duel Stade Ganryu 秋葉原店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tier-one-shibuya/one-piece-op17": {
+   "title": "TierOneティアワン渋谷 ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/dorasuta/mega-30th-celebration-card-set": {
+   "title": "ドラゴンスター ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/shibuya-tsutaya-pcgl/mega-30th-celebration-card-set": {
+   "title": "POKÉMON CARD LOUNGE（SHIBUYA TSUTAYA 5F） ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-tc-kitasenju/mega-30th-celebration": {
+   "title": "TSUTAYA Trading Card 北千住 ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/tsutaya-tc-kitasenju/mega-30th-celebration-premium-deck-set": {
+   "title": "TSUTAYA Trading Card 北千住 ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/mugiwara-store/one-piece-op16": {
+   "title": "ONE PIECE 麦わらストア ONE PIECEカードゲーム ブースターパック 決戦の刻【OP-16】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/mugiwara-store/one-piece-op17": {
+   "title": "ONE PIECE 麦わらストア ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cardwings-hachioji/yugioh-original-artwork-collection": {
+   "title": "CARDWINGS八王子駅前店 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cardwings-akihabara/yugioh-original-artwork-collection": {
+   "title": "CARDWINGS秋葉原駅前店 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/magi/mega-30th-celebration": {
+   "title": "magi ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/dorasuta/yugioh-original-artwork-collection": {
+   "title": "ドラゴンスター 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/storm-emeralda": {
+   "title": "エディオン ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/mega-starter-set-ex-eevee-ex": {
+   "title": "エディオン ポケモンカードゲーム MEGA スターターセットex イーブイex",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/mega-starter-set-ex-zorua-zoroark-ex": {
+   "title": "エディオン ポケモンカードゲーム MEGA スターターセットex ゾロア＆ゾロアークex",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/mega-starter-set-ex-sprigatito-meowscarada-ex": {
+   "title": "エディオン ポケモンカードゲーム MEGA スターターセットex ニャオハ＆マスカーニャex",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/mega-brave": {
+   "title": "エディオン ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/mega-symphonia": {
+   "title": "エディオン ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/yugioh-original-artwork-collection": {
+   "title": "エディオン 遊戯王OCG ORIGINAL ARTWORK COLLECTION BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/mint-games-ikebukuro/mega-30th-celebration": {
+   "title": "MINT GAMES 池袋店 ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/hareruya2-akiba-tower/mega-30th-celebration": {
+   "title": "晴れる屋2秋葉原タワー店 ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/hareruya2-akiba-tower/mega-30th-celebration-premium-deck-set": {
+   "title": "晴れる屋2秋葉原タワー店 ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/takashimaya-shinjuku/mega-30th-celebration": {
+   "title": "高島屋新宿店 ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cardwings-hachioji/storm-emeralda": {
+   "title": "CARDWINGS八王子駅前店 ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cardwings-hachioji/mega-brave": {
+   "title": "CARDWINGS八王子駅前店 ポケモンカードゲーム MEGA 拡張パック「メガブレイブ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cardwings-hachioji/mega-symphonia": {
+   "title": "CARDWINGS八王子駅前店 ポケモンカードゲーム MEGA 拡張パック「メガシンフォニア」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/cardwings-akihabara/storm-emeralda": {
+   "title": "CARDWINGS秋葉原駅前店 ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/dorasuta/mega-30th-celebration": {
+   "title": "ドラゴンスター ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/dorasuta/mega-30th-celebration-premium-deck-set": {
+   "title": "ドラゴンスター ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/donki/mega-30th-celebration": {
+   "title": "ドン・キホーテ ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/dorasuta/storm-emeralda": {
+   "title": "ドラゴンスター ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/shibuya-tsutaya-pcgl/mega-30th-celebration": {
+   "title": "POKÉMON CARD LOUNGE（SHIBUYA TSUTAYA 5F） ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」BOX",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/shibuya-tsutaya-pcgl/mega-30th-celebration-premium-deck-set": {
+   "title": "POKÉMON CARD LOUNGE（SHIBUYA TSUTAYA 5F） ポケモンカードゲーム MEGA「30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/shibuya-tsutaya-pcgl/storm-emeralda": {
+   "title": "POKÉMON CARD LOUNGE（SHIBUYA TSUTAYA 5F） ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/toreca-takumi/mega-start-deck-100-battle-collection": {
+   "title": "トレカの匠 ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/hareruya2-akiba-tower/storm-emeralda": {
+   "title": "晴れる屋2秋葉原タワー店 ポケモンカードゲーム MEGA 拡張パック「ストームエメラルダ」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://toreca-chusen.com/c/edion/mega-start-deck-100-battle-collection": {
+   "title": "エディオン ポケモンカードゲーム MEGA スタートデッキ100 バトルコレクション",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-09-28T11:49:07+09:00",
    "last_seen": "2026-09-28"
   }
  }
