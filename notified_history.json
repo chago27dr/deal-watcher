@@ -32,21 +32,7 @@
  ],
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
-  "atmos 抽選一覧": 1,
-  "Googleニュース「プレバン カード 抽選」": 1,
-  "Googleニュース「ポケカ 抽選」": 1,
-  "Googleニュース「ワンピースカード 抽選」": 1,
-  "Googleニュース「遊戯王 抽選」": 1,
-  "Googleニュース「ドラゴンボール カードゲーム 抽選 OR 予約」": 1,
-  "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」": 1,
-  "Googleニュース「ウイスキー 抽選販売」": 1,
-  "Googleニュース「日本酒 抽選販売」": 1,
-  "Googleニュース「腕時計 抽選販売」": 1,
-  "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」": 1,
-  "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」": 1,
-  "Googleニュース「限定車 抽選販売」": 1,
-  "Googleニュース「トヨタ OR 日産 OR ホンダ OR マツダ OR スバル 抽選販売」": 1,
-  "Googleニュース「GRヤリス OR GRカローラ OR ランドクルーザー OR GT-R OR フェアレディZ 抽選」": 1
+  "atmos 抽選一覧": 1
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -2861,6 +2847,27 @@
    "category": "スニーカー",
    "source": "Nike SNKRS ローンチ",
    "first_seen": "2026-09-28T17:26:22+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Uck5vY1VWbVNyVWZrWV8tM3c5QUJ3ZWlXY2NaLTctaHBpcEN5MmdkOVZsZTFMM3RmNm5xdE1wdmY0SVB6cW5yU3R4emdpZ1Nt?oc=5": {
+   "title": "神秘的な美しさ溢れる！『遊☆戯☆王デュエルモンスターズ』ART WORKS MONSTERS サイレント・マジシャンがプレバンで抽選販売！",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「プレバン カード 抽選」",
+   "first_seen": "2026-09-28T18:51:08+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NanhLRzVCRWtFeU00VHdXUlBzaVZFNFVtWEIzVXdGTWVYUFBBLTNfRndQLUtkVThCeUpoMVJBMXBpWlNqaEdNbmpJb3c5d0FXREJTWG90bDFWVS0xQ3FQa0lhVVJRS05tdXRXYU8wVkhmX3A5aFBPZ1laWGVZSGs?oc=5": {
+   "title": "ゲオで、『ポケカ』30周年記念商品「30th CELEBRATION カードセット」9種セットが抽選受付中！ “御三家”の特別カードを地方ごとに収録した胸アツなアイテム（インサイド）",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-28T18:51:08+09:00",
+   "last_seen": "2026-09-28"
+  },
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ0VlQTIyQ3UzZ014anpLOGFHZlV6S1JyaFctcXVRWlBNWXFjX2U5QVA1TnNiRU1hVWY5NTYxbDZqYmZjNUM1aXRwM3NPLXBrT1F5cDN0cHFaRk9IUmUxbUJZSjF5czRyQWd6a05Hbm5YMy1xSEZIUVoycnM2dVhrNlRoY0g2dw?oc=5": {
+   "title": "ウマ娘 × WHISKY MEW ウイスキー 10月4日まで抽選受付!",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-28T18:51:08+09:00",
    "last_seen": "2026-09-28"
   }
  }
