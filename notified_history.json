@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 6
+  "ポケモンセンターオンライン お知らせ": 7
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3170,6 +3170,20 @@
    "category": "時計",
    "source": "Googleニュース「腕時計 抽選販売」",
    "first_seen": "2026-09-29T20:50:23+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TUFUwOFBzc2d2MklQSzI0Y20waDdpc1k4LVUweFA1QXZ2M3k4aXIwbGdPa2x2TC10M04tcWVpaFlHLTVIS1ZFT2l1VnBTZTB3NUM1T1ZkeS1rdmhxUjJOanNQQVdodHJRVGJEOEZ5dnN6dzBTelpz?oc=5": {
+   "title": "『ポケカ』30周年記念商品がポケセンオンラインで追加抽選！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象 2枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T23:24:48+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1qazZWWjFuYzlFTEVuT1FHZ2JsUThMcjBZWHlXdXJ6akFLWDhINHBHT0w3TUVFRkROUUhHelYyRFE1RzRBNkhFSTlVV3g?oc=5": {
+   "title": "SNKRSの抽選や購入方法は？保留中や順番待ちについても解説！｜コラム",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ワンピースカード 抽選」",
+   "first_seen": "2026-09-29T23:24:48+09:00",
    "last_seen": "2026-09-29"
   }
  }
