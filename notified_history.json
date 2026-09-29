@@ -32,7 +32,8 @@
  ],
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
-  "atmos 抽選一覧": 1
+  "atmos 抽選一覧": 1,
+  "ポケモンセンターオンライン お知らせ": 1
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3148,6 +3149,20 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-09-29T19:51:06+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE90X29JV3AwVzRzamtnMTZKbnU0UHluTzFNT2NrWkFnZzRYcXpCcDRvVWc1VHRuYXJDVnUzb2FqdGhHVVpnd2lqc0taTnpJa1RqOXJpRE52dXMxUVMzQXRkYkFDb1lmemtPN0JNNVhjSnVYQVdXam5V?oc=5": {
+   "title": "『ポケカ』30周年記念商品がポケセンオンラインで追加抽選！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象 7枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T20:22:39+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE9McERRb05SYUpYNmRuRU1BY0ZuUlVwQ1FQVW53X214NVBIeUNyUjFDR1FTWlpBRElFNDZDeWZqUlJfXy1Pb2hMeUJkbFJwdnI4WUZET0tqdng5Y2xWOWhubGlmRVlTTkhkMDBqTW5SYUZUTHRWQWNwWTNn?oc=5": {
+   "title": "『ポケカ』拡張パック「インフェルノX」「ストームエメラルダ」がポケセンオンラインで追加抽選！大半を「本人認証済みの方の当選分」として用意 2枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T20:22:39+09:00",
    "last_seen": "2026-09-29"
   }
  }
