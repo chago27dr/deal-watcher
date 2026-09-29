@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 4
+  "ポケモンセンターオンライン お知らせ": 5
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3121,6 +3121,27 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」",
    "first_seen": "2026-09-29T18:51:58+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wWmdXTEw2Q29kZ1dSRDBmMktCdFlEZGZxLVZQZmZCbFJKQmM4QU5BcmE0S0hPNzdkNDh5bGM2OVVCallDNlpnbVVmdzFQNmVDT0h2bUVKQlV1VU5IMXdBLVBIbXBPelM5SVlQeVVpTk85V1NlMHNV?oc=5": {
+   "title": "『ポケカ』30周年記念商品がポケセンオンラインで追加抽選！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象 3枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T19:24:06+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OMWs2SmtJTHcxemNjcFZJcXQyUnQxQXFUSGljNk5fbWFmRmN1M1JWUmNmbGg3RUJENkcxbHZmR25FMUlKU1ZORUZHN1lmaXJzbW5TaTJZWXVOa0RDR2xKT3lGaGYzTno3bG80LTRZMTROZVVDeWVn?oc=5": {
+   "title": "『ポケカ』拡張パック「インフェルノX」「ストームエメラルダ」がポケセンオンラインで追加抽選！大半を「本人認証済みの方の当選分」として用意 12枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T19:24:06+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Sb0s2YUdxbXBPRnoxZThUeXYxbmxTZ1dGVXRmd3RFYkRRMGc4Mi11Yk4xOVhJQ2dSeFdsVlNVa0haZHJtQ2FwVUE3N3ZfVHN3XzBLc2hqU2VkV1VMVWhkYU1PaHlXcWc1X29OZkpOWldXNWNQYWpMckk4T3Y5dDQ?oc=5": {
+   "title": "【シチズン アテッサ】こんな色の時計、見たことある？ 「グリーンフラッシュ」と「パープルオーロラ」が限定発売（UOMO）",
+   "category": "時計",
+   "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
+   "first_seen": "2026-09-29T19:24:06+09:00",
    "last_seen": "2026-09-29"
   }
  }
