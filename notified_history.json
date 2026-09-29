@@ -32,7 +32,8 @@
  ],
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
-  "atmos 抽選一覧": 1
+  "atmos 抽選一覧": 1,
+  "ポケモンセンターオンライン お知らせ": 1
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3092,6 +3093,13 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-09-29T16:50:24+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE14eV9OVE9CT2dEOFV3anZ3T3N6eFN0WE1uNjlfcWlaallhbWMyVm1xcVVHMWhzRVFwQTk0V3F4ZTN6VF9HaWhCdlVIQm9kaHRMb3BHOEpMbjBoT3pKRmJod0k5VGhWdjJCNWc?oc=5": {
+   "title": "「クィン・マンサ」40周年記念のROBOT魂、2次予約は抽選販売に！規格外の大型MS、オリジナルのアレンジやマーキングも多数",
+   "category": "車",
+   "source": "Googleニュース「限定車 抽選販売」",
+   "first_seen": "2026-09-29T17:25:33+09:00",
    "last_seen": "2026-09-29"
   }
  }
