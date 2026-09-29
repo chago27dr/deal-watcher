@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 25
+  "ポケモンセンターオンライン お知らせ": 26
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -1483,7 +1483,7 @@
    "category": "スニーカー",
    "source": "Googleニュース「スニーカー 抽選」",
    "first_seen": "2026-09-27T01:21:37+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5obGdyV1gtQ3dkYmJucWUxa3lxc3c3QU1pZFZPQXQzN1hMaDBraFJQa0RuaHFzazhqeVRjRDlmdTJLNllEQXBkLUVpLVA?oc=5": {
    "title": "9/17・9/24発売｜adidas Originals × oasis LIVE ‘25 collection｜抽選/販売/定価情報",
@@ -3198,6 +3198,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ワンピースカード 抽選」",
    "first_seen": "2026-09-30T07:47:46+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTFBteGdpYi1SMklsWHJVVTV3R284UmY4RHhqTDNHaGd1X1NIUEtTN212d3l0a05BWE1MaF9qTkNESldkWDg0aUhmaGVUaXVsOXUtQ2ljdFAyaDdPUE8tS09GcVlzcjY3d2p1clE?oc=5": {
+   "title": "ウイスキー「山崎12年」をAmazonが“1万7600円”で抽選販売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-30T08:46:53+09:00",
    "last_seen": "2026-09-30"
   }
  }
