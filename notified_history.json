@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 22
+  "ポケモンセンターオンライン お知らせ": 23
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3184,6 +3184,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ワンピースカード 抽選」",
    "first_seen": "2026-09-29T23:24:48+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBrbFVYV2x0eEpkQ0xFYkpMY1pfUVVfOHkxcUU1Q0x5ZEJIMDVTd0JUOFc5azFlM3h0Z0VDeXFMNEJJLVptZmxBN0RpUFc?oc=5": {
+   "title": "【ポケカ】インフェルノXの再販はいつ？再販入荷情報まとめ【9/29更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-30T07:22:24+09:00",
    "last_seen": "2026-09-30"
   }
  }
