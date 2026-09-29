@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 3
+  "ポケモンセンターオンライン お知らせ": 4
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3100,6 +3100,27 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-09-29T17:25:33+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnSkd5My05RktJU2ZZU2kxbExVaGRjSEhPVUN1emJMZl9SVGdwQ2otQUpzM0hTdGx0ZnE4MGdSZThveURBRng4WGdNempNRkYxdmNvT3JLbFRUVVRLRmUzRWg4TzZBQmJudWNWSnQ0dkoyTVdFZE0w?oc=5": {
+   "title": "『ポケカ』30周年記念商品がポケセンオンラインで追加抽選！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象 1枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T18:51:58+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wNm10dGtoZ3Q2RkJyeXJJUVc5VnVwcnFtZXJPNXRQaC1nUWtqVElxUVdpSWhoVHhLX0VINFAwaUV6VTlKU2s4d2RzTGpmMWRDbGgxVVpxdGJ0S091NnAtQVp4R0J3T3dNTDlzNTlFaV9MRHNiYl9V?oc=5": {
+   "title": "ゲオで、『ポケカ』30周年記念商品「30th CELEBRATION カードセット」9種セットが抽選受付中！ “御三家”の特別カードを地方ごとに収録した胸アツなアイテム 1枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T18:51:58+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BT1JZVE91QzExdm55aFBxX2YxcndPMS1nZkx4X2toVUxNdWE2bjRLVW9VYXpZc0llNndFcThmMURoVjc3UWwxOVVIRzN1eUxEZkhNTnJfak94dw?oc=5": {
+   "title": "【受注生産】MTG×海外人気アーティストのコラボカードが楽天ブックス限定で予約開始。24時間限定の受注販売も実施",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」",
+   "first_seen": "2026-09-29T18:51:58+09:00",
    "last_seen": "2026-09-29"
   }
  }
