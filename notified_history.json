@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 1
+  "ポケモンセンターオンライン お知らせ": 2
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3163,6 +3163,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-09-29T20:22:39+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvV0dVRFN4TmRqOU50SmxWNmhyR09XOGZfSjBFX0hRQ3R4NlJteVluWFhKb1NqYVVSbm5OZ2JMZkllMjRHMHlwbGp3ZXV3YV9EZ2tFY1p6ZmladUVvNnpFSlQ1MGhnV0EwX2ZqVkFwdFdJMVV4eW0zaVVFUTdYMms?oc=5": {
+   "title": "【コラボG-SHOCK】あの”BUMP OF CHICKEN コラボG-SHOCK”に最新モデルが登場！現在抽選受付中。",
+   "category": "時計",
+   "source": "Googleニュース「腕時計 抽選販売」",
+   "first_seen": "2026-09-29T20:50:23+09:00",
    "last_seen": "2026-09-29"
   }
  }
