@@ -32,8 +32,7 @@
  ],
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
-  "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 5
+  "atmos 抽選一覧": 1
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3142,6 +3141,13 @@
    "category": "時計",
    "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
    "first_seen": "2026-09-29T19:24:06+09:00",
+   "last_seen": "2026-09-29"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kTlpsVmZDcGFOVkhYUTQ1c0N2SUxrSDZUZ1VJSXBSZGhNMmZpcjgzRXNrbzVyM2ZHZmt2UEphWXA1cHdSVHFmWWxUOEdIMzRveUFDckVyQ1FsU3ZVQWFyMnQzcE9KaVdUSHhwNmpxOHpQNDljdmhr?oc=5": {
+   "title": "『ポケカ』30周年記念商品がポケセンオンラインで追加抽選！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象 13枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-29T19:51:06+09:00",
    "last_seen": "2026-09-29"
   }
  }
