@@ -32,8 +32,7 @@
  ],
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
-  "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 52
+  "atmos 抽選一覧": 1
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -944,35 +943,35 @@
    "category": "トレーディングカード",
    "source": "ポケモンセンターオンライン お知らせ",
    "first_seen": "2026-09-27T01:06:38+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://www.pokemoncenter-online.com/news?id=20260828": {
    "title": "8月28日（金）～8月31日（月）に応募受付を実施する抽選販売の応募手順のご案内",
    "category": "トレーディングカード",
    "source": "ポケモンセンターオンライン お知らせ",
    "first_seen": "2026-09-27T01:06:38+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://www.pokemoncenter-online.com/news?id=20260803": {
    "title": "ポケモンカードゲーム30周年記念商品の抽選期間と応募方法について",
    "category": "トレーディングカード",
    "source": "ポケモンセンターオンライン お知らせ",
    "first_seen": "2026-09-27T01:06:38+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://www.pokemoncenter-online.com/news?id=20260728": {
    "title": "『ポケットモンスター』シリーズの歴代ゲームソフトのパッケージがデザインされたグッズの受注販売、および再販売についてご案内",
    "category": "トレーディングカード",
    "source": "ポケモンセンターオンライン お知らせ",
    "first_seen": "2026-09-27T01:06:38+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://www.pokemoncenter-online.com/news?id=20240918": {
    "title": "モバイルバッテリー（発売元：株式会社ポケモン）の自主回収およびご返金に関する再度のお知らせとお願い",
    "category": "トレーディングカード",
    "source": "ポケモンセンターオンライン お知らせ",
    "first_seen": "2026-09-27T01:06:38+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://www.konami.com/yugioh/information/24111": {
    "title": "イベント予約のキャンセル可能時間の変更について",
