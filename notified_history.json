@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 50
+  "ポケモンセンターオンライン お知らせ": 51
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3282,6 +3282,20 @@
    "category": "時計",
    "source": "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」",
    "first_seen": "2026-09-30T20:22:01+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kLVQyOWY0V2wtYm9VWm4xTXBCTEN5bnJnSkc1dWt1cnFzSVhucDZiTE5KaEhRaVduZ3dvVlZDSHdTMzVpZ2V5M1V2M1JNdlFTRnVQdDNUU2dLamNMckVTd2dpUl9vQ09uOTJEM2tfNA?oc=5": {
+   "title": "【MTG】スタートレックの統率者デッキ4種類の収録まとめ【予約開始】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「マジック・ザ・ギャザリング OR MTG 抽選 OR 予約」",
+   "first_seen": "2026-09-30T21:32:16+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IR1JSNHY0dHUxUElmMG1iSmVwdkUxa094UVNEU0ZZOU9GOXJtb3BTOTZGa2FWcmM1cXNMYzNqU3ZEQzBVemkyTXJXeHdoSjlSc3NIM2VQbWZ4UlFSS25TeU1sM05GTmZic1V0SV9SNWNwc2Y4ekE?oc=5": {
+   "title": "セクシー女優引退を表明したMINAMO、初の半自伝的小説『母の泥舟』出版記念サイン会が開催決定！宛名入りサイン本が手に入る「2冊セット」の抽選販売がスタート",
+   "category": "お酒",
+   "source": "Googleニュース「日本酒 抽選販売」",
+   "first_seen": "2026-09-30T21:32:16+09:00",
    "last_seen": "2026-09-30"
   }
  }
