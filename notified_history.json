@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 38
+  "ポケモンセンターオンライン お知らせ": 39
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3247,6 +3247,13 @@
    "category": "スニーカー",
    "source": "Nike SNKRS ローンチ",
    "first_seen": "2026-09-30T13:24:31+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTzZ6bmxrTk5VQ2tnMC1TMFJNWjRtR3BzZGl3Z090aGhUdXprZEEyTlpVOTNkY183SmVFQ3lWalpweF80OEhXWnFITEVETlBveGpfMTNFOVJMZ1pDZUZlVTFPamMzUnVDSTUwZ3JzT3cwWDc2dHJGeURuc3RFZUJ2eUY3SQ?oc=5": {
+   "title": "KONAMI STYLEでの抽選結果発表！ORIGINAL ARTWORK COLLECTIONは手に入るのか【遊戯王】 Chance Gray (Mydqo5qiJ6)",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「遊戯王 抽選」",
+   "first_seen": "2026-09-30T15:28:39+09:00",
    "last_seen": "2026-09-30"
   }
  }
