@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 19
+  "ポケモンセンターオンライン お知らせ": 20
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3324,6 +3324,13 @@
    "category": "時計",
    "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
    "first_seen": "2026-10-01T06:23:49+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OU2ZDNXY3NDViYm1HMUZHLThMbndTSFptajBlbFU3cWduTGVxR1VOVEJZXzByV2xPVHlTeXFTR0ZjZmc4ZGdCbDVrT3pHVlBTMUMyUDJTZk1iY0YxX2tuOWxubDRvSzV3a1VwaDgtTnVBV1BxZ2FF?oc=5": {
+   "title": "プレバンで「MGSD クシャトリヤ」が抽選販売！特徴的な4基のバインダーは、ファンネル収納の内側も細かく再現 5枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「プレバン カード 抽選」",
+   "first_seen": "2026-10-01T08:20:50+09:00",
    "last_seen": "2026-10-01"
   }
  }
