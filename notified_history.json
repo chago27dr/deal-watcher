@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 5
+  "ポケモンセンターオンライン お知らせ": 6
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3303,6 +3303,20 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-09-30T23:54:16+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tekY0Vk9sOWUycEdzNldUUW5ZMGktNFlSOGlqZ3RfaUdINWJ0S0FtWmlreFRmbXBQcVIxRWg1dlFkVklXWE1rZ3dMMGU3QzJVYmw5aDBKUkhEeTE3RHRuRXBqSk5qeWxVd1ZXRjdnYjNHbFg4TEFDN3JaaEE?oc=5": {
+   "title": "【画像】プレバンにてガンプラ「MGSD クシャトリヤ」の抽選販売実施中！抽選期間は10月5日まで 2/2",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「プレバン カード 抽選」",
+   "first_seen": "2026-10-01T01:26:54+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KZ3pGV0N3cndCTU8zY0NwblhYTVdwNExYR1R6ZWc3RFYwOV9IOWVtMU1vQ3lTTDVlemYwQ3REZG1PWHgzUE1fMk1xYlhrcWVxcDM3eE1fQ0Jfd3VUbVE?oc=5": {
+   "title": "国産ブランド“セイコー”別注コラボウオッチ【先行予約を開始!】限定300本、パワーウオッチ25周年記念コラボレーションモデル【実機レビュー】",
+   "category": "時計",
+   "source": "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」",
+   "first_seen": "2026-10-01T01:26:54+09:00",
    "last_seen": "2026-10-01"
   }
  }
