@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 33
+  "ポケモンセンターオンライン お知らせ": 34
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3100,7 +3100,7 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-09-29T17:25:33+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnSkd5My05RktJU2ZZU2kxbExVaGRjSEhPVUN1emJMZl9SVGdwQ2otQUpzM0hTdGx0ZnE4MGdSZThveURBRng4WGdNempNRkYxdmNvT3JLbFRUVVRLRmUzRWg4TzZBQmJudWNWSnQ0dkoyTVdFZE0w?oc=5": {
    "title": "『ポケカ』30周年記念商品がポケセンオンラインで追加抽選！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象 1枚目の写真・画像",
@@ -3226,6 +3226,13 @@
    "category": "時計",
    "source": "Googleニュース「腕時計 抽選販売」",
    "first_seen": "2026-09-30T11:49:23+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOaTcyY2htTzZMdGFsLV9sU3h3ODdlWjRVLU91dU0zTU90R2VYbk8tZkpxWXhza3RjWGo1dU40cDg0RExORmdwbWJxMzMxLTNaV3pYLVlsVS1XMGlsTDlSV00tblRRc05lZmc?oc=5": {
+   "title": "「仮面ライダーカブト」20周年記念！真骨彫製法「ダークカブト ライダーフォーム」が会員先着販売、全員向け抽選販売も順次実施",
+   "category": "車",
+   "source": "Googleニュース「限定車 抽選販売」",
+   "first_seen": "2026-09-30T12:50:24+09:00",
    "last_seen": "2026-09-30"
   }
  }
