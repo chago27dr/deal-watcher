@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 29
+  "ポケモンセンターオンライン お知らせ": 30
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3212,6 +3212,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-09-30T09:31:08+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85Uk1pXzNid2hzMnpMbFhhOHEtV210eVhfQ2NnY2tHY0lEUEpBQnBCMUp3a1JHWTVBaUw0dTlkZmxDYkZUXzdheDhiWVlyZmFkZmRad053?oc=5": {
+   "title": "【響21年 意匠ボトル〈花鳥風月〉 登場】限定466口の真剣勝負。レア銘柄が狙える「魅惑の宝物語みくじ」 9月29日予約販売開始",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-30T10:49:24+09:00",
    "last_seen": "2026-09-30"
   }
  }
