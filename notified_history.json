@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 2
+  "ポケモンセンターオンライン お知らせ": 3
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3296,6 +3296,13 @@
    "category": "お酒",
    "source": "Googleニュース「日本酒 抽選販売」",
    "first_seen": "2026-09-30T21:32:16+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zSU9FenZ4RlNJYWJTX2x2NktjWjhxQTQ1eGtNLWtUNnlCQXhaZno4Ujl6Nk80ckZDTEJRZXJyVm1vT01nRXVsai1FMmtIQ0IzT0VsbWNYWWU4Ymc?oc=5": {
+   "title": "【20本限定・抽選販売】幻の第一弾「°Ondo 001 スパークリング日本酒」がさらなる氷温熟成を経て復活！8月19日(水)応募開始",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-30T23:54:16+09:00",
    "last_seen": "2026-09-30"
   }
  }
