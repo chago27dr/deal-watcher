@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 26
+  "ポケモンセンターオンライン お知らせ": 27
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3205,6 +3205,13 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-09-30T08:46:53+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8wc1JSQlZ3dWJLVVJtY3RfOVpXRzBWd1lPWXQ2TGtYakZkd001UkcxVzliYWRxUkVCM0pSVUVpQnB5ZzFEUnpLSUM2TWQ?oc=5": {
+   "title": "【ポケカ】シャイニートレジャーexの再販はいつ？抽選予約と再販入荷情報まとめ",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-09-30T09:31:08+09:00",
    "last_seen": "2026-09-30"
   }
  }
