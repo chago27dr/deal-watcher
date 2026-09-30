@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 46
+  "ポケモンセンターオンライン お知らせ": 47
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -1406,7 +1406,7 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-09-27T01:06:38+09:00",
-   "last_seen": "2026-09-27"
+   "last_seen": "2026-09-30"
   },
   "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DZzFpOGl6U0xMUklldFJuc21QbjFlRWJ3ZnlGNjZUMjJVT1gtWUVvX2gyVDRGYkJwTXN4a1ZsSGZ5MG80TlBKQUJWa3cxcDhWeUFOTWRUaFJMTHA0bWxFUGhXcERFdXNXRW1POXB0MmY?oc=5": {
    "title": "おれは白ひげを 王にする「ワンピース」“火拳のエース”、躍動感たっぷりに立体化！超限定復刻版フィギュアが抽選販売中 2枚目の写真・画像",
@@ -3261,6 +3261,20 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ワンピースカード 抽選」",
    "first_seen": "2026-09-30T15:54:24+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5jZTdDOTZpYlhaMnBhbDFTaTM0UzY3eE5SYlVBOTFDSWtTaDZjWmI1R1ZKWk5VZFBobE1sWjRmV0luc3VReVdkWlpDU1A?oc=5": {
+   "title": "Kith日本公式オンラインストア開設記念！「限定ガンプラ」2型が2/18より抽選開始",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ワンピースカード 抽選」",
+   "first_seen": "2026-09-30T19:24:42+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE95TGNuWjRacXRPbm9nVWVjREUxemZjdWY5SFFrTDBaUWM0SU5nbTVDOVlDT2RrOFhDV1habkg1Q1FRVUNXWDREbE0wREJrdXlHay1lVzQzbGdLZUxJcHlOU2puLTZvYU5uazljSVR4UjkyUQ?oc=5": {
+   "title": "【2本確定×山崎18年・白州シングルモルト W当選のチャンス!!】ウイスキーくじ最新弾が9月30日より予約販売開始",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-09-30T19:24:42+09:00",
    "last_seen": "2026-09-30"
   }
  }
