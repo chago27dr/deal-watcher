@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 4
+  "ポケモンセンターオンライン お知らせ": 5
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3051,7 +3051,7 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-09-29T14:49:38+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-10-01"
   },
   "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EUnpGSkR5TEp0dUFwZzg1VFR4Q2IyTmNXQjhsSUF3YmFKU3c1TFpSbHpSOThQY2Q1Rk52VERhMGlSOElMeHRnS0FURWNldDA4WXdTZGRtMlBBNUtHSWtfZ2QzaWVIVktmVTJRLXZB?oc=5": {
    "title": "ソニーストアでPS5 Pro抽選販売の受付開始 「過去2年で60時間以上プレイ」「日本在住」など条件あり",
@@ -3303,7 +3303,7 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-09-30T23:54:16+09:00",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-01"
   }
  }
 }
