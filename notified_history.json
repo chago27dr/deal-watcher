@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 34
+  "ポケモンセンターオンライン お知らせ": 35
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3233,6 +3233,20 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-09-30T12:50:24+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jbUU3dktwME1sMjVfc001N21ITWlvZHREbzA5Y2U5bTJ6WThKa29ObHBLdlJCSXh2dGR2NklNYmpUZVBRWmVlbjQxaXc?oc=5": {
+   "title": "【ワンピースカード】ONE PIECE Heroines Edition vol.2の予約・抽選情報まとめ【9/30更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ワンピースカード 抽選」",
+   "first_seen": "2026-09-30T13:24:31+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://www.nike.com/jp/launch/t/women-s-air-jordan-3-velvet-brown-jp": {
+   "title": "レディース エア ジョーダン 3 'Velvet Brown' (CK9246-200)",
+   "category": "スニーカー",
+   "source": "Nike SNKRS ローンチ",
+   "first_seen": "2026-09-30T13:24:31+09:00",
    "last_seen": "2026-09-30"
   }
  }
