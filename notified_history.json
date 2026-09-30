@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 31
+  "ポケモンセンターオンライン お知らせ": 32
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -1924,7 +1924,7 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「プレバン カード 抽選」",
    "first_seen": "2026-09-27T19:20:36+09:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-09-30"
   },
   "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1RlNzSjJUUV81cVdmcVFwTWhMQkRWa1lZa1dGcklvUFYzWEpSMUlrRjNYUGtITnlZQjFPbk0tLWMtblg0OXZ1MDNjQ0pSZG1SajJPUXNQN0I3LU5xaHVrVTlITzBoS2JTQ3c?oc=5": {
    "title": "『ワンピース カードゲーム』“ONE PIECE DAY'26”記念商品がプレバンで4次予約へ！特別な「ルフィ」と「ドン！！カード」の2枚セット",
@@ -3219,6 +3219,13 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-09-30T10:49:24+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiREFVX3lxTE9jMEw0Vng2VTVSMHVrM1dlZk0wZzlZeGlfSEs2QjBfUnFuNUc1MnhVc0pQRGVBeF9udUNnSFVScEFVaFhC?oc=5": {
+   "title": "「累計60時間以上のゲームプレイ実績」――品薄のPS5 Pro抽選販売、今から始める人は対象外に",
+   "category": "時計",
+   "source": "Googleニュース「腕時計 抽選販売」",
+   "first_seen": "2026-09-30T11:49:23+09:00",
    "last_seen": "2026-09-30"
   }
  }
