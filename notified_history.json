@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 48
+  "ポケモンセンターオンライン お知らせ": 49
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3275,6 +3275,13 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-09-30T19:24:42+09:00",
+   "last_seen": "2026-09-30"
+  },
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbDROdE5QT3ZMeVFLWFlqUTFSXzIxeVhZQ3EyRTJkWE1xZTdoRjNJODk4MkxyVlFva241ekc5U19Icl9tRVd2dXhZblVhTk9IbVo4QzhCcmFGRWs?oc=5": {
+   "title": "国産ブランド“セイコー”別注コラボウオッチ【先行予約開始】限定300本、パワーウオッチ25周年記念コラボレーションモデル【実機レビュー】",
+   "category": "時計",
+   "source": "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」",
+   "first_seen": "2026-09-30T20:22:01+09:00",
    "last_seen": "2026-09-30"
   }
  }
