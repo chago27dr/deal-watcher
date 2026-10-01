@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 42
+  "ポケモンセンターオンライン お知らせ": 43
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3408,6 +3408,20 @@
    "category": "時計",
    "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
    "first_seen": "2026-10-01T19:25:08+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aNERtVE5xWm9xX1hteDUwMmpSYi1tODNRTk9FdlM1Qm0xTTNqeWZrVzZGbzRUNEdPUDVnTGFVQTBKNmRRcDhWTVlsM2FnbmVJSkVpcmlPc1d5LW5rUmc3Vmo0VlhETkVwZ1E?oc=5": {
+   "title": "イオン、ウイスキー「山崎」「白州」「響」「マッカラン12年」「竹鶴」など抽選販売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-10-01T19:51:27+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMibEFVX3lxTE51UHlFOU42U3VsaFFBMDFFSzJkcnhTVU1velpZX2lRUW9RRDVIWjN5YkNiOWNCQXFlbWU0SUhpOGFEMVBTWGNZc2J0OVV3QVVrWkhRZHBfc3lWWERRckFmX3VsUUVoZENNSDktbA?oc=5": {
+   "title": "カシオが1100万円のG-SHOCK発売、20本限定 ブルーサファイア使用",
+   "category": "時計",
+   "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
+   "first_seen": "2026-10-01T19:51:27+09:00",
    "last_seen": "2026-10-01"
   }
  }
