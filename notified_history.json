@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 27
+  "ポケモンセンターオンライン お知らせ": 28
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3359,6 +3359,13 @@
    "category": "時計",
    "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
    "first_seen": "2026-10-01T11:50:24+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NZVg3RjRCNG54cUR5YVplYl9NVWhTR190Q2VWOWJGUjBPb3lIczF5MXBlaDk2dmhPNDMtb3Iwb1JyUFpfaDR6cUJ6ZzRHT0dGZTE4MklTSTlVbXZSOXlBaVNBRHgzYWo1dkRtUGVtemFlclVEVVVhZzlB?oc=5": {
+   "title": "『ポケカ』拡張パック「インフェルノX」「ストームエメラルダ」がポケセンオンラインで追加抽選！大半を「本人認証済みの方の当選分」として用意 1枚目の写真・画像",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-10-01T12:24:29+09:00",
    "last_seen": "2026-10-01"
   }
  }
