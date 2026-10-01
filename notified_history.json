@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 43
+  "ポケモンセンターオンライン お知らせ": 44
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3422,6 +3422,20 @@
    "category": "時計",
    "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
    "first_seen": "2026-10-01T19:51:27+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wZEE2RFZSR3RRVGRLMlFLMVA1eWxLNEJfdEI3QmJxZHVVQXIyclFISnc3M2JnVS0wQkxDMVBMVmViTWwtX0cyOTJ2cEtpYzd1QmJhTWdTWTE1TzFycjdiTDYyeG9PNmlmQ2lkYVh2N3NhSVRjM1pXc0J5d1p2UHM?oc=5": {
+   "title": "イオン、ウイスキー「山崎」「白州」「響」「マッカラン12年」「竹鶴」など抽選販売（グルメ Watch）",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-10-01T20:23:45+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aQTFocTJfUDBVbk9FSTU1YnZVekhnOHRIRVpGZ0praThNTHhHUVpQMkd4dTRCTERwTnpCdnowZTFOeU45d0tFUktqNGpBQ0ZTd3NXSE9EM1VwUQ?oc=5": {
+   "title": "予約開始【国産ブランド“カシオ”、完売必至のフルメタルウオッチ】カシオクラシック プレミアムシリーズ“A1000SP-7JR”",
+   "category": "時計",
+   "source": "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」",
+   "first_seen": "2026-10-01T20:23:45+09:00",
    "last_seen": "2026-10-01"
   }
  }
