@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 41
+  "ポケモンセンターオンライン お知らせ": 42
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3394,6 +3394,20 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-10-01T18:25:26+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBlSmloN0VvSFBiVEVXWWJvS1dTWkFzWnJURl8zeUN1N0E5NW9vNHB0TTdvSjBhbFZSdHNSUjNOcmt6eE40RTd1VDFTb1I?oc=5": {
+   "title": "【ポケカ】MEGAドリームexの再販はいつ？再販入荷情報まとめ【6/26更新】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-10-01T19:25:08+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lZEJKZUI4Z1JZa0xqRU4yeGFaS3NNMmlPSjNwR3gxUEJSQ19yeUJ3cEtYZ1ZPbW9Ic3dwVFluRVlyR0xWdngyUGpyTzhDangzSGk4N2NhX3U1VlhKRXVN?oc=5": {
+   "title": "カシオ、ねじを使わない多パーツ構造でブルーサファイアクリスタルをベゼル全面に採用した「MRG－D5000」を世界限定20本で販売",
+   "category": "時計",
+   "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
+   "first_seen": "2026-10-01T19:25:08+09:00",
    "last_seen": "2026-10-01"
   }
  }
