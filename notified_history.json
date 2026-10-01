@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 29
+  "ポケモンセンターオンライン お知らせ": 30
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3254,7 +3254,7 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「遊戯王 抽選」",
    "first_seen": "2026-09-30T15:28:39+09:00",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-01"
   },
   "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZQk9IRzdZS3VQUWFmQzh6WU83cDRJSEt2SjR4bjREeEtGUzBjN1JNZldHRDVQTWVzSmlqMWlvRVdiRDBjSVhsUTI3b1A?oc=5": {
    "title": "「ENNOY」新作アイテム3型の抽選が2026年1月10日正午からスタート！",
@@ -3366,6 +3366,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-10-01T12:24:29+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHaFd2RDl4R0RvRGk5YWdDOFB3R1JvcVotT3gzaTB3M0RFUmJGVGZBVkljNVlremR4QTFnMy11dlFKalZaZWNVMTAzeDdPMGgzX1lNOGRZTVg5bmFKNzJUclNXbldrOGdybjk1ZWF3?oc=5": {
+   "title": "連載30周年記念の「遊☆戯☆王ジャンプ」発売決定！応募者全員サービスには『OCG』特別パックも、新たな「バスター・ブレイダー」などを収録",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「遊戯王 抽選」",
+   "first_seen": "2026-10-01T13:24:34+09:00",
    "last_seen": "2026-10-01"
   }
  }
