@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 26
+  "ポケモンセンターオンライン お知らせ": 27
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3352,6 +3352,13 @@
    "category": "車",
    "source": "Googleニュース「限定車 抽選販売」",
    "first_seen": "2026-10-01T10:49:34+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53ZTR2bE9HTG82Y0dkbWhBMUpKVFdyUUpZdnpDenBTTzNaSDJMWWlxRzktZ2JnU1oySEs3ZjlQQmNCVEJBTzJRUnRfUmUyYnMtRmhqLVpKWG5fTHU4d2c?oc=5": {
+   "title": "カシオが約10万円の漆塗り電卓を発売、社内の反対を押し切り1カ月半で完売 (2026年10月1日掲載)",
+   "category": "時計",
+   "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
+   "first_seen": "2026-10-01T11:50:24+09:00",
    "last_seen": "2026-10-01"
   }
  }
