@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 46
+  "ポケモンセンターオンライン お知らせ": 47
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3450,6 +3450,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-10-01T21:30:50+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://toreca-chusen.com/c/wondergoo-mizue/mega-30th-celebration-card-set": {
+   "title": "WonderGOO 瑞江店 ポケモンカードゲーム MEGA「30th CELEBRATION カードセット（9種セット）」",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-10-01T21:56:14+09:00",
    "last_seen": "2026-10-01"
   }
  }
