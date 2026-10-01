@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 39
+  "ポケモンセンターオンライン お知らせ": 40
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3387,6 +3387,13 @@
    "category": "お酒",
    "source": "Googleニュース「ウイスキー 抽選販売」",
    "first_seen": "2026-10-01T17:52:16+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pbFNIVDI1Ty1WV3F0SXVjeU1CSFFYTC1WQ25aR011SF9ROFJCQ2lESTdfQk1EUFEySzd4Szdoclh3dURIejBRSWk0WlpBd0l0V1lsX29BYU5wYWJsanQ3WWU0OVdvOHVfdVE?oc=5": {
+   "title": "カルディ「いぬの日おさんぽバッグ」抽選販売を受付開始！ ブランケット付きの限定セットも",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-10-01T18:25:26+09:00",
    "last_seen": "2026-10-01"
   }
  }
