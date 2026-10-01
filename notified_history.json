@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 24
+  "ポケモンセンターオンライン お知らせ": 25
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3338,6 +3338,20 @@
    "category": "時計",
    "source": "Googleニュース「G-SHOCK OR カシオ 限定 抽選 OR 発売」",
    "first_seen": "2026-10-01T10:23:59+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rS3BwVWlXWUJjSEUwc0RqTjRZOEZjVHZwaF9PSk14TzJsSUFrR3Y5SlF2RDZGWVdlZXA2ZUZYVHZHR19ZQlpwekVIZTRGZw?oc=5": {
+   "title": "アニメ「ルパン三世」55周年を記念して ラフォーレ原宿にてPOP-UPが開催！ 懐かしのタッチで描かれたルパン達が颯爽と登場！ ファッションEC「ZOZOTOWN」コラボでは アーティストJUN INAGAWA氏とのコラボアイテムの先行販売や 1点限りとなるアートの抽選販売も！ | 株",
+   "category": "お酒",
+   "source": "Googleニュース「日本酒 抽選販売」",
+   "first_seen": "2026-10-01T10:49:34+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIc1hEY0Y0SWFNS2NsVVVSN2hfX0RUbFpaT0ZVbHhCZDdpYmhIRFhUVW5nZXR3a1pLeEdvQTNwN3Y5SVhJenhaWThCc1ozUjBNZFN4dUZUcTNqTERlYjdoNVlSNVQ?oc=5": {
+   "title": "「ピースの毛と羊毛の混毛フェルト人形」の抽選販売について ｜ピースNEWS",
+   "category": "車",
+   "source": "Googleニュース「限定車 抽選販売」",
+   "first_seen": "2026-10-01T10:49:34+09:00",
    "last_seen": "2026-10-01"
   }
  }
