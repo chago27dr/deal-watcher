@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 45
+  "ポケモンセンターオンライン お知らせ": 46
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -2967,7 +2967,7 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「ポケカ 抽選」",
    "first_seen": "2026-09-29T00:25:20+09:00",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-01"
   },
   "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrU1c0dVEwWkhOTnRDclVoUUd6MGVuVEhOdnI0bTNpNWNqbFMzcWVGVjI0UXZVbHBDemNpbDRLTjlUSmhmWGV5ci1hWkNyRFhiY1k0S2xiT0QxdEtiSGR4a1dpUExmRDQ2LXc3OW1uRXRFT0FsTnFF?oc=5": {
    "title": "ゲオで『ポケカ』30周年記念拡張パック「30th CELEBRATION」が抽選販売中！1BOX限定でパック単位は受付不可 4枚目の写真・画像",
@@ -3436,6 +3436,20 @@
    "category": "時計",
    "source": "Googleニュース「ロレックス OR グランドセイコー OR オメガ 時計 抽選 OR 限定」",
    "first_seen": "2026-10-01T20:23:45+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://toreca-chusen.com/c/ganryu-akihabara/vstar-universe": {
+   "title": "Duel Stade Ganryu 秋葉原店 ポケモンカードゲーム ソード&シールド ハイクラスパック VSTARユニバース",
+   "category": "トレーディングカード",
+   "source": "トレカ抽選ナビ(東京都)",
+   "first_seen": "2026-10-01T21:30:50+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9wRXJINjI3WUxScXlXcmtNX3I4SmhDV1JGVUl4Q3czUm5oV0pqcW9mSUVZYVRyaTZDeTdsc1ctNWNCZw?oc=5": {
+   "title": "【ポケカ】30th再抽選で相場崩れず!? 大量当選の裏で逆に高騰し始めた注目カードと今後の展開について【ポケモンカード】",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「ポケカ 抽選」",
+   "first_seen": "2026-10-01T21:30:50+09:00",
    "last_seen": "2026-10-01"
   }
  }
