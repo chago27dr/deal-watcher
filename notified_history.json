@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 38
+  "ポケモンセンターオンライン お知らせ": 39
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3380,6 +3380,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「遊戯王 抽選」",
    "first_seen": "2026-10-01T14:51:17+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YSWNJenItTEY4Z0p1TkVXQkpiZ3JYSFgtN0FCeHV6SDBFeDFBdzFiT045ZzgydzdOd1RmWlM4OWI4NjctbjV4U2ZDRXhMdw?oc=5": {
+   "title": "放送50周年『超電磁ロボ コン・バトラーV』限定ウイスキーが10月8日よりWHISKY MEWで抽選販売",
+   "category": "お酒",
+   "source": "Googleニュース「ウイスキー 抽選販売」",
+   "first_seen": "2026-10-01T17:52:16+09:00",
    "last_seen": "2026-10-01"
   }
  }
