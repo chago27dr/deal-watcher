@@ -33,7 +33,7 @@
  "source_health": {
   "プレミアムバンダイ カード抽選": 1,
   "atmos 抽選一覧": 1,
-  "ポケモンセンターオンライン お知らせ": 32
+  "ポケモンセンターオンライン お知らせ": 33
  },
  "items": {
   "https://www.30th.pokemon-card.com/product/goods-01": {
@@ -3373,6 +3373,13 @@
    "category": "トレーディングカード",
    "source": "Googleニュース「遊戯王 抽選」",
    "first_seen": "2026-10-01T13:24:34+09:00",
+   "last_seen": "2026-10-01"
+  },
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbEV4NmdiQ3FEVWVxWE9jUTItVWJmX2ZiQUdzU0FDdGZpdmVCWUYzVlhMU1JueS1nX1lNMWFoN094YU5Wc01sYm9ONWM2bHdyMlVaSnhjcnF3enpEWTJYbkJlNzMzREVjd2d5bDZMVHg5eW5JRktwbGUwZ0x0S2dVQnJfbw?oc=5": {
+   "title": "KONAMI STYLEでの抽選結果発表！ORIGINAL ARTWORK COLLECTIONは手に入るのか【遊戯王】 Trieste - Cremona (lG9IbzUxfq)",
+   "category": "トレーディングカード",
+   "source": "Googleニュース「遊戯王 抽選」",
+   "first_seen": "2026-10-01T14:51:17+09:00",
    "last_seen": "2026-10-01"
   }
  }
